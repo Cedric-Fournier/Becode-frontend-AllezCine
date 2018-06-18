@@ -1,0 +1,28 @@
+html, body{
+    width: 100%;
+}
+
+.jumbotron{
+    width : 100%; !important;
+
+}
+
+.row {
+    border-style: solid;
+    width: 70%;
+    text-align: center;
+}
+
+#title1{
+    border-style: none;
+    border-left: red;
+    border-left-style: solid ;
+}
+
+#pic1{
+    border-style: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
