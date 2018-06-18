@@ -1,4 +1,5 @@
 /* AGE VERIFICATION */
+
 #ageWrapper {
   visibility: hidden;
   opacity: 0;
@@ -29,6 +30,7 @@
   margin-top: -105px;
   margin-left: -185px;
   box-sizing: border-box;
+  color: #000;
 }
 
 #ageOkay {
@@ -46,116 +48,95 @@
   margin-top: 10px;
   display: inline-block;
 }
+
 /* AGE VERIFICATION */
+
 body {
-  background: #000;
+  background: #25343F;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
 }
+
 /* SOCIALS */
 
-.social {
-  /* visibility: hidden; */
+a {
+  color: #fff;
+  text-decoration: none;
 }
-
-.social:hover {
-  visibility: visible;
+.social {
+  position: fixed;
+  top: 20px;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
   color: #000;
 }
-
-.socialFB {
-  background: #fff;
-  width: 100px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.socialFB:hover {
-  width: 300px;
-}
-
-/* Style all font awesome icons */
-.fab {
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fab:hover {
-    opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-    background: #3b5998;
-    color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-    background: #55acee;
-    color: white;
-}
-
-/* Google */
-.fa-google {
-    background: #dd4839;
-    color: white;
-}
-
-
-/* .socialHover {
+.social ul li:hover i {
   color: #fff;
+  background: red;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
-
-.socialFacebook {
-  background: #3b5998;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  visibility: hidden;
-}
-
-.socialFacebook:hover {
-  background: #3b5998;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  visibility: visible;
-  width: 12%;
-}
-
-.socialTwitter {
-  background: #33ccff;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  visibility: hidden;
-}
-
-.socialGoogle {
-  background: #dd4839;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  visibility: hidden;
-}
-
-.fa-facebook,
-.fa-twitter,
-.fa-google-plus-g {
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
   background: #fff;
-  border-radius: 20px;
   padding: 10px;
-  visibility: visible;
-  font-size: 10px;
-} */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
 
-/* .fa-facebook {
-  color: #3b5998;
+body {
+
 }
-.fa-twitter{
-  color: #33ccff;
-}
-.fa-google {
-  color: #dd4839;
-} */
+
 /* SOCIALS */
