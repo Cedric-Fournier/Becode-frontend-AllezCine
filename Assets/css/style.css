@@ -2,8 +2,64 @@ html, body{
     width: 100%;
 }
 
-.row {
+.film{
+    width: 900px;
+    height: 240px;
     border-style: solid;
     border-width: thin;
-    width: 80%;
+    border-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 160px;
+    padding-top: 15px;
+    margin-top: 10px;
+
+}
+
+.film1{
+  width : 120px;
+  height: 160px;
+  background-color: rgba(38,50,56,0.87);
+}
+
+img{
+    width: 120px;
+    height: 160px;
+}
+
+.mil{
+    font-family: Helvetica, Arial;
+    font-size: x-small;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.date{
+    font-family: Helvetica, Arial;
+    font-size: xx-small;
+
+}
+
+.film2{
+    width : 120px;
+    height: 160px;
+    background-color: rgba(38,50,56,0.87);
+}
+
+.film3{
+    width : 120px;
+    height: 160px;
+    background-color: rgba(38,50,56,0.87);
+}
+
+.film4{
+    width : 120px;
+    height: 160px;
+    background-color: rgba(38,50,56,0.87);
+}
+
+.film5{
+    width : 120px;
+    height: 160px;
+    background-color: rgba(38,50,56,0.87);
 }
