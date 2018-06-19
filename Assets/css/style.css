@@ -39,17 +39,37 @@ body {
 }
 
 .nav-sign li {
-  
+
 }
 
 .modal-header, h4, .close {
-  background-color: #5cb85c;
-  color:white !important;
+  background-color: #5A6168;
+  color: white !important;
   text-align: center;
   font-size: 30px;
 }
+
+.modal-header {
+  border-radius: 0 !important;
+}
+
 .modal-footer {
-  background-color: #f9f9f9;
+  background-color: #5A6168;
+}
+
+.modal-footer button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-footer p{
+  margin-bottom: 0 !important;
+    font-size: 15px;
+    color: #fff;
+}
+
+.modal-footer-info a {
+  color: #E3B000;
 }
 
 /* LOGIN-REGISTER */
