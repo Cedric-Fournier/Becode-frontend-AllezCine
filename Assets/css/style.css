@@ -8,19 +8,51 @@ body {
   padding: 0;
 }
 
-.carousel-item {
-
+.carousel-item img{
+  opacity: 0.8;
 }
 
 .carousel-caption h5 {
-
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .carousel-caption p {
+  margin-bottom: 80px;
+}
 
+.carousel-indicators li {
+  margin-bottom: 50px;
 }
 
 /* HEADER */
+/* LOGIN-REGISTER */
+
+.nav-sign {
+
+}
+
+.nav-sign ul {
+  list-style: none;
+}
+
+.nav-sign li {
+  
+}
+
+.modal-header, h4, .close {
+  background-color: #5cb85c;
+  color:white !important;
+  text-align: center;
+  font-size: 30px;
+}
+.modal-footer {
+  background-color: #f9f9f9;
+}
+
+/* LOGIN-REGISTER */
 /* SOCIALS */
 
 /* SOCIALS */
