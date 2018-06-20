@@ -3,14 +3,14 @@ html, body{
 }
 
 .film{
-    width: 900px;
+    width: 800px;
     height: 240px;
     border-style: solid;
     border-width: thin;
     border-color: gainsboro;
     display: flex;
     justify-content: space-around;
-    margin-left: 160px;
+    margin-left: 180px;
     padding-top: 15px;
     margin-top: 10px;
 
@@ -40,26 +40,24 @@ img{
 
 }
 
-.film2{
-    width : 120px;
-    height: 160px;
-    background-color: rgba(38,50,56,0.87);
+section{
+    width: 900px;
+    height: fit-content;
+    margin-left: 180px;
 }
 
-.film3{
-    width : 120px;
-    height: 160px;
-    background-color: rgba(38,50,56,0.87);
+.box{
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.film4{
-    width : 120px;
-    height: 160px;
-    background-color: rgba(38,50,56,0.87);
-}
 
-.film5{
+
+.milf{
     width : 120px;
     height: 160px;
-    background-color: rgba(38,50,56,0.87);
+    background-color: #b7b7b7;
 }
