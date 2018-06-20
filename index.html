@@ -17,8 +17,8 @@
 
       <section class="menu">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">ALLOCINE!</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-default">
+          <a class="navbar-brand styleAllocine" href="#">ALLEZ<span class="styleCine">CINE!</span></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,9 +28,9 @@
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown bg-menu">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Genre
+                  Films
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
@@ -39,24 +39,27 @@
                   <a class="dropdown-item" href="#">Fiction</a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown bg-menu">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
+                  Featured Movies
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Comedie</a>
+                  <a class="dropdown-item" href="#">Western</a>
+                  <a class="dropdown-item" href="#">Fiction</a>
                 </div>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+              <li class="nav-item bg-menu">
+                <a class="nav-link" href="#">Shop Movie </a>
+              </li>
+              <li class="nav-item bg-menu">
+                <a class="nav-link" href="#">Contact Us </a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <button class="btn btn-outline-default my-2 my-sm-0" type="submit">Search</button>
             </form>
           </div>
         </nav>
@@ -69,6 +72,7 @@
         <section class="slide">
 
           <div class="carousel col-sm-12">
+
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -124,108 +128,135 @@
 
       <!-- LOGIN/REGISTER -->
 
-      <div class="nav-sign">
-        <ul>
-          <li><button type="button" class="btn btn-default btn-lg" id="mySignIn">Login</button></li>
-          <li><button type="button" class="btn btn-default btn-lg" id="mySignUp">Register</button></li>
-        </ul>
-      </div>
+        <section class="login-register">
 
-      <div class="modal fade" id="myModalSignIn" role="dialog">
-        <div class="modal-dialog">
-
-          <div class="modal-content">
-            <div class="modal-header" style="padding:35px 50px;">
-              <h4><span class="fas fa-lock"></span> Login</h4>
-            </div>
-            <div class="modal-body" style="padding:40px 50px;">
-              <form role="form">
-                <div class="form-group">
-                  <label for="usrname"><span class="fas fa-user"></span> Identifiant</label>
-                  <input type="text" class="form-control" id="usrname" placeholder="Entrer votre identifiant">
-                </div>
-                <div class="form-group">
-                  <label for="psw"><span class="far fa-eye"></span> Mot de passe</label>
-                  <input type="text" class="form-control" id="psw" placeholder="Entrer votre mot de passe">
-                </div>
-                <div class="checkbox">
-                  <label><input type="checkbox" value="" checked>Rester connecté</label>
-                </div>
-                  <button type="submit" class="btn btn-warning btn-block"><span class="fas fa-power-off"></span> Login</button>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="fas fa-times"></span> Annuler</button>
-              <div class="modal-footer-info">
-                <p>Pas membre ? <a href="#">Register</a></p>
-                <p>Vous avez <a href="#test">oublié votre mot de passe ?</a></p>
-              </div>
-              </div>
+          <div class="nav-sign">
+            <ul>
+              <li class="telephon fas fa-phone-square"> Phone : 02/000-00-00</li>
+              <li>&nbsp;</li>
+              <li><button type="button" class="btn btn-default btn-lg" id="mySignIn">Login</button></li>
+              <li><button type="button" class="btn btn-default btn-lg" id="mySignUp">Register</button></li>
+            </ul>
           </div>
 
-        </div>
-      </div>
+          <div class="modal fade" id="myModalSignIn" role="dialog">
+            <div class="modal-dialog">
 
-      <div class="modal fade" id="myModalSignUp" role="dialog">
-        <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="padding:35px 50px;">
+                  <h4><span class="fas fa-lock"></span> Login</h4>
+                </div>
+                <div class="modal-body" style="padding:40px 50px;">
+                  <form role="form">
+                    <div class="form-group">
+                      <label for="usrname"><span class="fas fa-user"></span> Identifiant</label>
+                      <input type="text" class="form-control" id="usrname" placeholder="Entrer votre identifiant">
+                    </div>
+                    <div class="form-group">
+                      <label for="psw"><span class="far fa-eye"></span> Mot de passe</label>
+                      <input type="password" class="form-control" id="psw" placeholder="Entrer votre mot de passe">
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" value="" checked>Rester connecté</label>
+                    </div>
+                      <button type="submit" class="btn btn-warning btn-block"><span class="fas fa-power-off"></span> Login</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="fas fa-times"></span> Annuler</button>
+                  <div class="modal-footer-info">
+                    <p>Pas membre ? <a href="#">Register</a></p>
+                    <p>Vous avez <a href="#test">oublié votre mot de passe ?</a></p>
+                  </div>
+                  </div>
+              </div>
 
-          <div class="modal-content">
-            <div class="modal-header" style="padding:35px 50px;">
-              <h4><span class="fas fa-lock"></span> Register</h4>
-            </div>
-            <div class="modal-body" style="padding:40px 50px;">
-              <form role="form">
-                <div class="form-group">
-                  <label for="usrname"><span class="fas fa-user"></span> Identifiant</label>
-                  <input type="text" class="form-control" id="usrname" placeholder="Entrer votre identifiant">
-                </div>
-                <div class="form-group">
-                  <label for="mail"><span class="fas fa-envelope"></span> Email</label>
-                  <input type="email" class="form-control" id="mail" placeholder="Entrer votre email">
-                </div>
-                <div class="form-group">
-                  <label for="psw"><span class="far fa-eye"></span> Mot de passe</label>
-                  <input type="text" class="form-control" id="psw" placeholder="Entrer votre mot de passe">
-                </div>
-                <div class="form-group">
-                  <label for="psw2"><span class="far fa-eye"></span> Confirmation Mot de passe</label>
-                  <input type="text" class="form-control" id="psw2" placeholder="Entrer a nouveau votre mot de passe">
-                </div>
-                <div class="checkbox">
-                  <label><input type="checkbox" value=""> Conditions générales d'utilisation</label>
-                </div>
-                  <button type="submit" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-off"></span> Register</button>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="submit" class="btn btn-danger btn-default" data-dismiss="modal"><span class="fas fa-times"></span> Cancel</button>
             </div>
           </div>
 
-        </div>
-      </div>
+          <div class="modal fade" id="myModalSignUp" role="dialog">
+            <div class="modal-dialog">
+
+              <div class="modal-content">
+                <div class="modal-header" style="padding:35px 50px;">
+                  <h4><span class="fas fa-lock"></span> Register</h4>
+                </div>
+                <div class="modal-body" style="padding:40px 50px;">
+                  <form role="form">
+                    <div class="form-group">
+                      <label for="usrname"><span class="fas fa-user"></span> Identifiant</label>
+                      <input type="text" class="form-control" id="usrname" placeholder="Entrer votre identifiant">
+                    </div>
+                    <div class="form-group">
+                      <label for="mail"><span class="fas fa-envelope"></span> Email</label>
+                      <input type="email" class="form-control" id="mail" placeholder="Entrer votre email">
+                    </div>
+                    <div class="form-group">
+                      <label for="psw"><span class="far fa-eye"></span> Mot de passe</label>
+                      <input type="password" class="form-control" id="psw" placeholder="Entrer votre mot de passe">
+                    </div>
+                    <div class="form-group">
+                      <label for="psw2"><span class="far fa-eye"></span> Confirmation Mot de passe</label>
+                      <input type="password" class="form-control" id="psw2" placeholder="Entrer a nouveau votre mot de passe">
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" value=""> Conditions générales d'utilisation</label>
+                    </div>
+                      <button type="submit" class="btn btn-warning btn-block"><span class="fas fa-power-off"></span> Register</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-danger btn-default" data-dismiss="modal"><span class="fas fa-times"></span> Annuler</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </section>
 
       <!-- LOGIN/REGISTER -->
 
       <!-- SOCIALS -->
 
         <section class="socials">
-          <!-- <aside>
-            <div class="shift">
-              <span class="">Twitter</span>
-              <div class="form float-right mt-1 mr-1">
-                <i class="fab fa-twitter"></i>
-              </div>
 
-            </div>
+          <aside>
+
             <div class="social">
               <ul>
-                <li><a href="#">Twitter <i class="fab fa-twitter"></i></a></li>
-                <li><a href="#">Facebook <i class="fab fa-facebook"></i></a></li>
-                <li><a href="#">Google + <i class="fab fa-google"></i></a></li>
+                <li class="var_nav">
+                  <div class="link_bg bg-twitter"></div>
+                  <div class="link_title">
+                    <div class=icon>
+                      <i class="fab fa-twitter"></i>
+                    </div>
+                    <a href="#"><span>Twitter</span></a>
+                  </div>
+                </li>
+                <li class="var_nav">
+                  <div class="link_bg bg-facebook"></div>
+                  <div class="link_title">
+                    <div class=icon>
+                      <i class="fab fa-facebook"></i>
+                    </div>
+                    <a href="#"><span>Facebook</span></a>
+                  </div>
+                </li>
+                <li class="var_nav">
+                  <div class="link_bg bg-google"></div>
+                  <div class="link_title">
+                    <div class=icon>
+                      <i class="fab fa-google"></i>
+                    </div>
+                    <a href="#"><span>Google+</span></a>
+                  </div>
+                </li>
               </ul>
             </div>
-          </aside> -->
+
+          </aside>
+
         </section>
 
       <!-- SOCIALS -->
