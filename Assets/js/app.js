@@ -44,3 +44,26 @@ function ageVerif() {
 }
 
 // AGE VERIFICATION //
+// MODAL MOVIES //
+
+$('.launch-modal').on('click', function(e){
+    e.preventDefault();
+    $( '#' + $(this).data('modal-id') ).modal();
+});
+
+// MODAL MOVIES //
+// CONTACT //
+
+function submitContact() {
+
+  let lastname = document.getElementById("inputLastName").value;
+  let firstname = document.getElementById("inputFirstName").value;
+  let email = document.getElementById("inputEmail").value;
+  let sujet = document.getElementById("inputSujet").value;
+  let message = document.getElementById("inputMessage").value;
+
+  alert("Nom : " + lastname + "\nPrénom : " + firstname + "\nEmail : " + email + "\nSujet : " + sujet +  "\nMessage : " + message);
+
+}
+
+// CONTACT //
