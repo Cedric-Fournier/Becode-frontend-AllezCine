@@ -64,4 +64,18 @@ html, body{
     opacity: 1;
 }
 
+.modal-video{
+    background-color: gainsboro;
+    padding: 4px 4px 4px 4px;
+
+}
+
+.tit{
+    text-align: left;
+
+}
+
+.para{
+    font-size: x-small;
+}
 /***** Modal *****/
