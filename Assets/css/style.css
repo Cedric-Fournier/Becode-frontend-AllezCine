@@ -1,0 +1,393 @@
+/* GENERAL */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* GENERAL */
+
+/* HEADER */
+/* MENU */
+.menu {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-item a {
+  color: #fff !important;
+}
+
+.nav-link .active {
+}
+
+.bg-menu {
+  background: rgba(204, 204, 204, 0.4);
+  margin: 5px;
+}
+
+.bg-menu:hover {
+  background: #ff2b43;
+}
+
+.dropdown-menu a {
+  color: #000 !important;
+}
+
+.dropdown-item:hover {
+  background: rgb(255, 43, 67) !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.active a {
+    color: #ff2b43 !important;
+    font-weight: bold;
+}
+
+.styleAllocine {
+  font-size: 40px;
+  color: #ff2b43 !important;
+  font-weight: bold;
+}
+
+.styleCine {
+  color: #fff;
+}
+
+.btn-outline-default {
+  border: 2px solid rgb(255, 43, 67) !important;
+  border-radius: 10px;
+  background: rgba(255, 43, 67, 0) !important;
+  color: rgba(255, 43, 67, 1) !important;
+}
+
+.btn-outline-default:hover {
+  background: rgb(255, 43, 67) !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* MENU */
+/* SLIDE */
+
+.slide {
+  background: #000;
+}
+
+.carousel {
+  padding: 0;
+}
+
+.carousel-item img{
+  opacity: 0.4;
+}
+
+.carousel-caption h5 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  margin-bottom: 80px;
+}
+
+.carousel-indicators li {
+  margin-bottom: 50px;
+}
+
+/* SLIDE */
+/* LOGIN-REGISTER */
+
+.login-register {
+  background: #FF002C;
+}
+
+.telephon {
+  font-size: 18px;
+  color: #fff;
+}
+
+.nav-sign ul {
+  list-style: none;
+    padding: 5px;
+}
+
+.nav-sign li {
+  display: inline;
+}
+
+.nav-sign li button {
+  color: #ff2b43;;
+  background: #fff;
+  font-size: 15px;
+}
+
+.nav-sign li button:hover {
+  color: #000;;
+  background: #fff;
+  font-size: 15px;
+  border: 1px solid #000;
+}
+
+.modal-header, h4, .close {
+  background-color: #5A6168;
+  color: white !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+.modal-header {
+  border-radius: 0 !important;
+}
+
+.modal-footer {
+  background-color: #5A6168;
+}
+
+.modal-footer-info .btn-default {
+  color: #fff;
+  background: #ff2b43;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.modal-footer-info .btn-default:hover {
+  color: #000;
+  background: #FFCB00;
+  border: 1px solid #000;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.modal-footer button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-footer p{
+  margin-bottom: 0 !important;
+  font-size: 12px;
+  color: #fff;
+}
+
+.modal-footer-info a {
+  color: #E3B000;
+}
+
+.modal {
+  overflow: auto;
+}
+
+/* LOGIN-REGISTER */
+/* HEADER */
+
+/* SOCIALS */
+
+/* .social ul {
+  margin:0px;
+  padding:0px;
+  list-style-type:none;
+  -webkit-backface-visibility: hidden; backface-visibility: hidden;
+}
+
+.var_nav {
+  position:relative;
+  background:#ccc;
+  width:40px;
+  height:30px;
+  margin-bottom:5px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.link_bg {
+   width:40px;
+   height:30px;
+   position:absolute;
+   background:#E01B6A;
+   color:#fff;
+   z-index:2;
+   border-top-right-radius: 40px;
+   border-bottom-right-radius: 40px;
+}
+
+.link_title {
+  position:absolute;
+  width:40px;
+  z-index:3;
+  color:#E01B6A;
+}
+
+.link_title a {
+  width :-200px;
+  color:#E01B6A;
+  opacity: 0;
+}
+
+.link_title .icon {
+  z-index:1000;
+}
+
+.var_nav:hover .link_title {
+  width: 130px;
+  transition-duration: 0.5s;
+}
+
+.var_nav:hover .icon {
+  float:right;
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  transform:rotate(360deg);
+  opacity: 1;
+}
+
+.var_nav:hover .link_bg {
+  width: 150px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.var_nav:hover a {
+  font-weight:bold;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  -ms-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+  color: #fff;
+  width: 100px;
+  opacity: 1;
+}
+
+.icon {
+  float:left;
+  position:relative;
+  width:40px;
+  height:30px;
+  text-align:center;
+  color:#fff;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  -ms-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+}
+
+.icon i {
+  line-height: 30px;
+  border-radius: 30px;
+  width: 30px;
+}
+
+.link_title a {
+  display: block;
+  position: absolute;
+  float: left;
+  font-family: arial;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.link_title a span {
+  display: block;
+  line-height: 30px;
+}
+
+.fa-twitter {
+  color: rgb(0, 172, 237);
+  max-height: 2em;
+  background-color: #fff
+}
+
+.bg-twitter {
+  background: rgb(0, 172, 237);
+}
+
+.fa-facebook {
+  color: rgb(59, 89, 152);
+  max-height: 2em;
+  background-color: #fff
+}
+
+.bg-facebook {
+  background: rgb(59, 89, 152);
+}
+
+.fa-google {
+  color: rgb(211, 72, 54);
+  max-height: 2em;
+  background-color: #fff
+}
+
+.bg-google {
+  background: rgb(211, 72, 54);
+} */
+
+.reseaux-sociaux {
+  position: fixed;
+  top: 250px;
+  z-index: 16;
+}
+
+.links {
+  background-color: #FFF;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+#twitter {
+  background-color: rgb(0, 172, 237);
+  color: rgb(0, 172, 237);
+}
+
+#facebook {
+  background-color: rgb(59, 89, 152);
+  color: rgb(59, 89, 152);
+}
+
+#dribble {
+  background-color: rgb(234, 76, 137);
+  color: rgb(234, 76, 137);
+}
+
+#googlep {
+  background-color: rgb(211, 72, 54);
+  color: rgb(211, 72, 54);
+
+}
+
+.parent {
+  margin-top: 3px;
+  border-radius: 0 50px 50px 0;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.parent a {
+  color: #FFF;
+}
+
+.parent span {
+  display: none;
+  width: 0px;
+}
+
+.parent:active span,
+.parent:focus span {
+  display: inherit;
+  width: 100px;
+}
+
+/* SOCIALS */
