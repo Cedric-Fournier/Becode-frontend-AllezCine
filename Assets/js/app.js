@@ -1,6 +1,6 @@
 $(document).ready(function(){
   loginRegister();
-  ageVerif();
+  // ageVerif();
 });
 
 // LOGIN - REGISTER //
@@ -27,15 +27,20 @@ function loginRegister() {
 
 function ageVerif() {
 
-  let ageVerif = prompt("Please enter your age !");
+  let age = prompt("Please enter your age !");
+  age = parseInt(age);
 
-  if (ageVerif < 18) {
-    document.location.href="https://www.imdb.com/";
-  } else if (!Number(ageVerif)) {
-    alert('This is not a number !')
-    ageVerif = prompt("Please enter your age !");
+  while(isNaN(age) || age < 18) {
+
+      if(isNaN(age)){
+          age = prompt("Please enter your age !");
+      }
+
+      if(age < 18){
+          window.location.href = "https://www.imdb.com";
+          break;
+      }
   }
-
 }
 
 // AGE VERIFICATION //
