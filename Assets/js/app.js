@@ -1,6 +1,7 @@
 $(document).ready(function(){
   loginRegister();
-  // ageVerif();
+  GoogleMap();
+  //ageVerif();
 });
 
 // LOGIN - REGISTER //
@@ -36,7 +37,7 @@ function ageVerif() {
           age = prompt("Please enter your age !");
       }
 
-      if(age < 18){
+      else if(age < 18){
           window.location.href = "https://www.imdb.com";
           break;
       }
@@ -65,5 +66,12 @@ function submitContact() {
   alert("Nom : " + lastname + "\nPrénom : " + firstname + "\nEmail : " + email + "\nSujet : " + sujet +  "\nMessage : " + message);
 
 }
+
+function GoogleMap() {
+  $("#myGoogleMap").click(function(){
+    $("#myModalGoogleMap").modal();
+  });
+}
+
 
 // CONTACT //

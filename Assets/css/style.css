@@ -4,14 +4,14 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-section {
+/* section {
   margin: 10px 0;
-}
+} */
 
 .title {
   border-left: 5px solid #ff2b43;
   padding-left: 10px;
-  margin-bottom: 15px;
+  margin: 10px 0 15px -25px;
 }
 
 .hidden {
@@ -22,61 +22,67 @@ section {
 
 /* HEADER */
 /* MENU */
+.menu .fa-align-justify {
+  color: #fff !important;
+}
+
 .menu {
   position: absolute;
   width: 100%;
   z-index: 10;
+  line-height: 20px;
 }
 
-.nav-item a {
+.menu .nav-item a {
   color: #fff !important;
 }
 
-.nav-link .active {
+.menu .nav-link .active {
 }
 
-.bg-menu {
-  background: rgba(204, 204, 204, 0.4);
+.menu .bg-menu {
+  background: rgba(204, 204, 204, 0.7);
   margin: 5px;
 }
 
-.bg-menu:hover {
+.menu .bg-menu:hover {
   background: #ff2b43;
 }
 
-.dropdown-menu a {
+.menu .dropdown-menu a {
   color: #000 !important;
 }
 
-.dropdown-item:hover {
+.menu .dropdown-item:hover {
   background: rgb(255, 43, 67) !important;
   color: #fff !important;
   font-weight: bold;
 }
 
-.active a {
+.menu .active a {
     color: #ff2b43 !important;
     font-weight: bold;
+    margin-top: 5px;
 }
 
-.styleAllocine {
+.menu .styleAllocine {
   font-size: 40px;
   color: #ff2b43 !important;
   font-weight: bold;
 }
 
-.styleCine {
+.menu .styleCine {
   color: #fff;
 }
 
-.btn-outline-default {
+.menu .btn-outline-default {
   border: 2px solid rgb(255, 43, 67) !important;
   border-radius: 10px;
   background: rgba(255, 43, 67, 0) !important;
-  color: rgba(255, 43, 67, 1) !important;
+  color: rgba(255, 255, 255, 1) !important;
 }
 
-.btn-outline-default:hover {
+.menu .btn-outline-default:hover {
   background: rgb(255, 43, 67) !important;
   color: #fff !important;
   font-weight: bold;
@@ -119,56 +125,56 @@ section {
   background: #FF002C;
 }
 
-.telephon {
+.login-register .telephon {
   font-size: 18px;
   color: #fff;
 }
 
-.nav-sign ul {
+.login-register .nav-sign ul {
   list-style: none;
-    padding: 5px;
+  padding: 5px;
 }
 
-.nav-sign li {
+.login-register .nav-sign li {
   display: inline;
 }
 
-.nav-sign li button {
+.login-register .nav-sign li button {
   color: #ff2b43;;
   background: #fff;
   font-size: 15px;
 }
 
-.nav-sign li button:hover {
+.login-register .nav-sign li button:hover {
   color: #000;;
   background: #fff;
   font-size: 15px;
   border: 1px solid #000;
 }
 
-.modal-header, h4, .close {
+.login-register .modal-header, h4, .close {
   background-color: #5A6168;
   color: white !important;
   text-align: center;
   font-size: 30px;
 }
 
-.modal-header {
+.login-register .modal-header {
   border-radius: 0 !important;
 }
 
-.modal-footer {
+.login-register .modal-footer {
   background-color: #5A6168;
 }
 
-.modal-footer-info .btn-default {
+.login-register .modal-footer-info .btn-default {
   color: #fff;
   background: #ff2b43;
   font-size: 12px;
   padding: 4px;
 }
 
-.modal-footer-info .btn-default:hover {
+.login-register .modal-footer-info .btn-default:hover {
   color: #000;
   background: #FFCB00;
   border: 1px solid #000;
@@ -176,22 +182,22 @@ section {
   padding: 4px;
 }
 
-.modal-footer button {
+.login-register .modal-footer button {
   margin-left: auto;
   margin-right: auto;
 }
 
-.modal-footer p{
+.login-register .modal-footer p{
   margin-bottom: 0 !important;
   font-size: 12px;
   color: #fff;
 }
 
-.modal-footer-info a {
+.login-register .modal-footer-info a {
   color: #E3B000;
 }
 
-.modal {
+.login-register .modal {
   overflow: auto;
 }
 
@@ -428,32 +434,32 @@ section {
 /* ??? */
 /* MODAL MOVIES */
 
-.modal-backdrop.in {
+.movies .modal-backdrop.in {
     filter: alpha(opacity=7);
     opacity: 0.7;
 }
 
-.modal-content {
+.movies .modal-content {
     background: none;
     border: 0;
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
 
-.modal-body {
+.movies .modal-body {
     padding: 0 25px 25px 25px;
 }
 
-.modal-header {
+.movies .modal-header {
     padding: 25px 25px 15px 25px;
     text-align: right;
 }
 
-.modal-header, .modal-footer {
+.movies .modal-header, .modal-footer {
     border: 0;
 }
 
-.modal-header .close {
+.movies .modal-header .close {
     float: none;
     margin: 0;
     font-size: 36px;
@@ -463,7 +469,7 @@ section {
     opacity: 1;
 }
 
-.modal-video{
+.movies .modal-video{
     background-color: gainsboro;
     padding: 4px 4px 4px 4px;
 
@@ -479,6 +485,10 @@ section {
 }
 /* MODAL MOVIES */
 /* CONTACT */
+
+.contact {
+
+}
 
 .contact .btn-default {
   color: #fff;;
@@ -498,3 +508,153 @@ iframe {
 }
 
 /* CONTACT */
+/* FOOTER */
+
+.footer {
+
+}
+
+/* .footer form {
+  text-align: center;
+} */
+
+.footer label {
+  color: #ff2b43;
+  font-weight: bold;
+}
+
+.footer input {
+  width: 500px !important;
+}
+
+.footer .btn-outline-default {
+  background: #ff2b43 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.footer .btn-outline-default:hover {
+  background: #ff2b43 !important;
+  color: #000 !important;
+  border: 1px solid #000;
+  font-weight: bold;
+}
+
+.footer .page-footer {
+  background: #151515;
+  color: #fff;
+}
+
+.footer .list-unstyled,
+.footer .list-unstyled a{
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.footer .tags a {
+  background: rgb(100, 100, 100);
+  padding: 0.2em;
+}
+
+.footer .tags a:hover {
+  background: rgb(255, 0, 44);
+  text-decoration: none;
+}
+
+.footer .latestmovies img {
+  margin: 0.3125em;
+  line-height: 1px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer .styleAllocine {
+  font-size: 40px;
+  color: #ff2b43 !important;
+  font-weight: bold;
+}
+
+.footer .styleAllocine:hover {
+  text-decoration: none;
+}
+
+.footer .styleCine {
+  color: #fff;
+}
+
+.footer .imgAlloCine img {
+
+}
+
+.footer .fa-twitter,
+.footer .fa-facebook,
+.footer .fa-dribbble,
+.footer .fa-google-plus {
+  color: rgb(100, 100, 100);
+}
+
+.footer .fa-twitter:hover {
+  color: rgb(0, 172, 237);
+}
+
+.footer .fa-facebook:hover {
+  color: rgb(59, 89, 152);
+}
+
+.footer .fa-dribbble:hover {
+  color: rgb(234, 76, 137);
+}
+
+.footer .fa-google-plus:hover {
+  color: rgb(211, 72, 54);
+}
+
+.footer .footer-copyright {
+  background: #000;
+  color: #fff;
+}
+
+.footer .footer-copyright a {
+  color: #ff2b43;
+}
+
+.footer .footer-copyright a:hover {
+  color: #fff;
+}
+
+.footer .bg-button-social {
+  border: 0.0625em solid rgb(100, 100, 100);
+  text-align: justify;
+  padding-top: 0.3675em;
+  padding-bottom: 0.1275em;
+  font-size: 0.8em;
+}
+
+.footer .createdby {
+  font-size: 0.7em;
+}
+
+.footer hr {
+  margin-bottom: 2em;
+  background: rgba(45, 45, 45, 0.8);
+}
+
+.footer h5 {
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+.footer .styleAllocine {
+  font-size: 1.8em;
+  line-height: 0.4em;
+}
+
+.footer .elementFooter hr {
+  margin-top: -1em;
+  margin-bottom: 0.5em;
+  background: rgba(45, 45, 45, 0.8);
+}
+
+/* FOOTER */
