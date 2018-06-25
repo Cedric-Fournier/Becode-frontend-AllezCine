@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,58 +9,52 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link rel="stylesheet" href="test.css">
-    <title>AllezCiné</title>
+    <title>testtoggle</title>
 </head>
 <body>
+<div class="container">
+    <div class="row1">
+        <div class="col- col-sm col-md col-lg"><h6 class="fm">FEATURED SERIES TV</h6></div>
+    </div>
+</div>
 
-<!-- MAIN / SECTION FEATURED MOVIES -->
-
-<section class="featured-movies">
-    <div class="container">
-        <div class="row1">
-            <div class="col- col-sm col-md col-lg"><h6 class="fm">FEATURED MOVIES</h6></div>
+<div class="container">
+    <div class="row4">
+        <div id='filter'>
+            <button class='all'>ALL</button>
+            <button class='blue'>ACTIONS</button>
+            <button class='grey'>ADVENTURES</button>
         </div>
     </div>
+</div>
 
-    <div class="container">
-        <div class="row4">
-            <button type="button" class="btn btn-danger ">All</button>
-            <button type="button" class="btn btn-secondary " disabled>Actions</button>
-            <button type="button" class="btn btn-secondary " disabled>Policiers</button>
-        </div>
-    </div>
-
-    <div class="row"></div>
+<div class="row"></div>
 
     <div class="container">
         <div class="row2">
-            <div class="col-2"><div class="grey"></div></div>
-            <div class="col-2"><div class="grey"></div></div>
-            <div class="col-2"><div class="grey"></div></div>
-            <div class="col-2"><div class="grey"></div></div>
-            <div class="col-2"><div class="grey"></div></div>
-            <div class="col-2"><div class="grey"></div></div>
+            <div class="col-2"><div class="post all blue " ></div></div>
+            <div class="col-2"><div class="post all grey "></div></div>
+            <div class="col-2"><div class="post all blue" ></div></div>
+            <div class="col-2"><div class="post all grey"></div></div>
+            <div class="col-2"><div class="post all blue" ></div></div>
+            <div class="col-2"><div class="post all grey"></div></div>
         </div>
 
-        <div class="row3">
-            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">PLUS DE FILMS</button>
-        </div>
-
-        <div class="collapse" id="collapseExample">
-            <div class="row2">
-                <div class="col-2"><div class="grey"></div></div>
-                <div class="col-2"><div class="grey"></div></div>
-                <div class="col-2"><div class="grey"></div></div>
-                <div class="col-2"><div class="grey"></div></div>
-                <div class="col-2"><div class="grey"></div></div>
-                <div class="col-2"><div class="grey"></div></div>
-            </div>
-        </div>
+    <div class="row3">
+        <button type="button" class="btn1 btn-danger" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">PLUS DE FILMS</button>
     </div>
-</section>
 
-<!-- MAIN / SECTION FEATURED MOVIES -->
-
+<div class="collapse" id="collapseExample">
+    <div class="row2">
+        <div class="col-2"><div class="post all blue" ></div></div>
+        <div class="col-2"><div class="post all grey"></div></div>
+        <div class="col-2"><div class="post all blue" ></div></div>
+        <div class="col-2"><div class="post all grey" ></div></div>
+        <div class="col-2"><div class="post all blue"></div></div>
+        <div class="col-2"><div class="post all grey"></div></div>
+    </div>
+</div>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>

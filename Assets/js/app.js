@@ -52,3 +52,26 @@ $('.launch-modal').on('click', function(e){
 });
 
 // MODAL FILMS //
+
+// FILMS SELECTIONS //
+
+$('.btn1').click(function(){
+    $(this).text(function(i,old){
+        return old=='PLUS DE FILMS' ?  'MOINS DE FILMS' : 'PLUS DE FILMS';
+    });
+});
+
+// FILMS SELECTIONS //
+
+// FILMS FILTER //
+
+$(function() {
+    $('.post').hide();
+    $("#filter button").on("click", function(){
+        var filtertag = $(this).attr('class');
+        $('.post').hide().filter('.' + filtertag).show();
+    })
+        [0].click();
+});
+
+// FILMS FILTER //
