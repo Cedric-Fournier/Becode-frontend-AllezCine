@@ -1,12 +1,6 @@
-$(document).ready(function(){
-  loginRegister();
-  GoogleMap();
-  //ageVerif();
-});
-
 // LOGIN - REGISTER //
 
-function loginRegister() {
+let loginRegister = () => {
 
   $("#mySignIn").click(function(){
     $("#myModalSignIn").modal();
@@ -26,7 +20,7 @@ function loginRegister() {
 // LOGIN - REGISTER //
 // AGE VERIFICATION //
 
-function ageVerif() {
+let ageVerif = () => {
 
   let age = prompt("Please enter your age !");
   age = parseInt(age);
@@ -55,7 +49,7 @@ $('.launch-modal').on('click', function(e){
 // MODAL MOVIES //
 // CONTACT //
 
-function submitContact() {
+let submitContact = () => {
 
   let lastname = document.getElementById("inputLastName").value;
   let firstname = document.getElementById("inputFirstName").value;
@@ -75,3 +69,42 @@ function GoogleMap() {
 
 
 // CONTACT //
+// SHOP MOVIE //
+
+
+// SHOP MOVIE //
+// BUTTON UP //
+
+let buttonUp = () =>{
+
+  let button = document.createElement("A");
+  let icon = document.createElement("I");
+
+  icon.setAttribute("class", "fas fa-arrow-up buttonUp");
+  button.appendChild(icon);
+
+  let location = document.getElementById("footer");
+  button.setAttribute("href", "#top");
+  location.insertAdjacentElement("beforeend", button);
+
+  $(window).on("scroll", function(){
+    sT = $(this).scrollTop();
+    if (sT > 200) {
+      button.setAttribute("class", "btn btn-link fixed-bottom upstyle");
+    } else {
+      button.setAttribute("class", "btn btn-link upstyle");
+    }
+  });
+};
+
+// BUTTON UP
+// LAUNCHER //
+
+$(document).ready(function(){
+  loginRegister();
+  GoogleMap();
+  //ageVerif();
+  // buttonUp();
+});
+
+// LAUNCHER //
