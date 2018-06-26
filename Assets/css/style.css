@@ -651,6 +651,12 @@ iframe {
   line-height: 0.4em;
 }
 
+.footer .connectus {
+  text-align: center;
+  font-size: 0.8em;
+  color: rgb(200, 200, 200);
+}
+
 .footer .elementFooter hr {
   margin-top: -1em;
   margin-bottom: 0.5em;
