@@ -1,227 +1,227 @@
 [
- {
-  "url" : "../../images/action/avengersinfinitywar-2018-action.jpg",
-  "name" : "Avengers Infinity War",
-  "date" : "2018",
-  "genre" : "action",
-  "trailer" : "https://www.youtube.com/embed/QwievZ1Tx-8?rel=0",
-  "storyline" : "Les Avengers et leurs alliés devront ètre prèts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l'univers.",
-  "price" : "16€"
- },
- {
-  "url" : "../../images/comedie/batmanmovie-2017-comedie.jpg",
-  "name" : "Lego Batman, le film",
-  "date" : "2017",
-  "genre" : "animation",
-  "trailer" : "https://www.youtube.com/watch?v=hd6dqh9BjHo",
-  "storyline" : "Il en rèvait depuis La Grande Aventure Lego : Batman est enfin le héros de son propre film ! Mais la situation a bien changé à Gotham - et s'il veut sauver la ville des griffes du Joker, il lui faudra arrèter de jouer au justicier masqué et découvrir le travail d'équipe ! Peut-ètre pourra-t-il alors se décoincer un peuâ€¦",
-  "price" : "7,30€"
- },
- {
-  "url" : "../../images/action/deadpool2-2018-action.jpg",
-  "name" : "Deadpool 2",
-  "date" : "2018",
-  "genre" : "action",
-  "trailer" : "https://www.youtube.com/watch?v=QgzslSsSECM",
-  "storyline" : "L'insolent mercenaire de Marvel remet le masque ! Plus grand, plus-mieux, et occasionnellement les fesses à l'air, il devra affronter un Super-Soldat dressé pour tuer, repenser l'amitié, la famille, et ce que signifie l'héroïsme - tout en bottant cinquante nuances de culs, car comme chacun sait, pour faire le Bien, il faut parfois se salir les doigts.",
-  "price" : "18€"
- },
- {
-  "url" : "../../images/exorcism.jpg",
-  "name" : "L'exorcisme de Molly Hartley",
-  "date" : "2015",
-  "genre" : "horreur",
-  "trailer" : "https://www.youtube.com/watch?v=CZt1btSODAk",
-  "storyline" : "Après avoir été accusée du meurtre d'un couple, Molly Hartley est admise dans un institut psychiatrique sous les soins du prètre John Barrow et de la docteure Laurie Hawthor.",
-  "price" : "7,30€"
- },
- {
-  "url" : "../../images/thriller/hostel-2005-thriller.jpg",
-  "name" : "Hostel",
-  "date" : "2005",
-  "genre" : "horreur",
-  "trailer" : "https://www.youtube.com/watch?v=Dm2i-uLCjNM",
-  "storyline" : "Deux étudiants américains, Paxton et Josh, ont décidé de découvrir l'Europe avec un maximum d'aventures et de sensations fortes. Avec Oli, un Islandais qu'ils ont rencontré en chemin, ils se retrouvent dans une petite ville de Slovaquie dans ce qu'on leur a décrit comme le nirvana des vacances de débauche : une propriété très spéciale, pleine de filles aussi belles que faciles...Natalya et Svetlana sont effectivement très cools... un peu trop, mème. Paxton et Josh vont vite se rendre compte qu'ils sont tombés dans un piège. Ce voyage-là va les conduire au bout de l'horreur... ",
-  "price" : "5€"
- },
- {
-  "url" : "../../images/scifi/inception-2010-scifi.jpg",
-  "name" : "Inception",
-  "date" : "2010",
-  "genre" : "science fiction",
-  "trailer" : "https://www.youtube.com/watch?v=B4nIVh1yvvc",
-  "storyline" : "Dom Cobb est un voleur expérimenté - le meilleur qui soit dans l'art périlleux de l'extraction : sa spécialité consiste à s'approprier les secrets les plus précieux d'un individu, enfouis au plus profond de son subconscient, pendant qu'il rève et que son esprit est particulièrement vulnérable. Très recherché pour ses talents dans l'univers trouble de l'espionnage industriel, Cobb est aussi devenu un fugitif traqué dans le monde entier qui a perdu tout ce qui lui est cher. Mais une ultime mission pourrait lui permettre de retrouver sa vie d'avant - à condition qu'il puisse accomplir l'impossible : l'inception. Au lieu de subtiliser un rève, Cobb et son équipe doivent faire l'inverse : implanter une idée dans l'esprit d'un individu. S'ils y parviennent, il pourrait s'agir du crime parfait. Et pourtant, aussi méthodiques et doués soient-ils, rien n'aurait pu préparer Cobb et ses partenaires à un ennemi redoutable qui semble avoir systématiquement un coup d'avance sur eux. Un ennemi dont seul Cobb aurait pu soupà§onner l'existence.",
-  "price" : "8€"
- },
- {
-  "url" : "../../images/comedie/intouchables-2011-comedie.jpg",
-  "name" : "Intouchables",
-  "date" : "2011",
-  "genre" : "comédie dramatique",
-  "trailer" : "https://www.youtube.com/watch?v=cXu2MhWYUuE&gl=BE",
-  "storyline" : "A la suite d'un accident de parapente, Philippe, riche aristocrate, engage comme aide à domicile Driss, un jeune de banlieue tout juste sorti de prison. Bref la personne la moins adaptée pour le job. Ensemble ils vont faire cohabiter Vivaldi et Earth Wind and Fire, le verbe et la vanne, les costumes et les bas de survètement... Deux univers vont se télescoper, s'apprivoiser, pour donner naissance à une amitié aussi dingue, drà´le et forte qu'inattendue, une relation unique qui fera des étincelles et qui les rendra... Intouchables.",
-  "price" : "8€"
- },
- {
-  "url" : "../../images/comedie/jumanji-2018-comedie.jpg",
-  "name" : "Jumanji : Bienvenue dans la jungle",
-  "date" : "2018",
-  "genre" : "aventure",
-  "trailer" : "https://www.youtube.com/watch?v=1iyVQy2Z_KM",
-  "storyline" : "Le destin de quatre lycéens en retenue bascule lorsqu'ils sont aspirés dans le monde de Jumanji. Après avoir découvert une vieille console contenant un jeu vidéo dont ils n'avaient jamais entendu parler, les quatre jeunes se retrouvent mystérieusement propulsés au coeur de la jungle de Jumanji, dans le corps de leurs avatars. Ils vont rapidement découvrir que l'on ne joue pas à Jumanji, c'est le jeu qui joue avec vousâ€¦ Pour revenir dans le monde réel, il va leur falloir affronter les pires dangers et triompher de l'ultime aventure. Sinon, ils resteront à jamais prisonniers de Jumanjiâ€¦",
-  "price" : "17€"
- },
- {
-  "url" : "../../images/action/jurassicworld2-2018-action.jpg",
-  "name" : "Jurassic World: Fallen Kingdom",
-  "date" : "2018",
-  "genre" : "aventure",
-  "trailer" : "https://www.youtube.com/watch?v=4-kBkhp2D-g",
-  "storyline" : "Cela fait maintenant trois ans que les dinosaures se sont échappés de leurs enclos et ont détruit le parc à thème et complexe de luxe Jurassic World. Isla Nublar a été abandonnée par les humains alors que les dinosaures survivants sont livrés à eux-mèmes dans la jungle. Lorsque le volcan inactif de l'à®le commence à rugir, Owen et Claire s'organisent pour sauver les dinosaures restants de l'extinction. Owen se fait un devoir de retrouver Blue, son principal raptor qui a disparu dans la nature, alors que Claire, qui a maintenant un véritable respect pour ces créatures, s'en fait une mission. Arrivant sur l'à®le instable alors que la lave commence à pleuvoir, leur expédition découvre une conspiration qui pourrait ramener toute notre planète à un ordre périlleux jamais vu depuis la préhistoire.",
-  "price" : "17€"
- },
- {
-  "url" : "../../images/dramatique/lepatientanglais-1996-dramatique.jpg",
-  "name" : "Le patient anglais",
-  "date" : "1996",
-  "genre" : "drame",
-  "trailer" : "https://www.youtube.com/watch?v=FguRZAv_LS4",
-  "storyline" : "En 1945, quatre personnes dechirées par la guerre se réfugient dans un monastère abandonné de Toscane pour se guérir de leurs maux. Peu à peu le passé va resurgir et la présence d'un homme mystérieux et méconnaissable, le patient anglais, va bouleverser le destin de ceux qui croisent son chemin.",
-  "price" : "5€"
- },
- {
-  "url" : "../../images/aventure/lesdeuxtours-2002-aventure.jpg",
-  "name" : "Le seigneur des anneaux : les deux tours",
-  "date" : "2002",
-  "genre" : "aventure",
-  "trailer" : "https://www.youtube.com/watch?v=c9blKqmyeV4",
-  "storyline" : "Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'Emyn Muil, Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'Anneau. Celui-ci promet de conduire les Hobbits jusqu'à la Porte Noire du Mordor. A travers la Terre du Milieu, Aragorn, Legolas et Gimli font route vers le Rohan, le royaume assiégé de Theoden. Cet ancien grand roi, manipulé par l'espion de Saroumane, le sinistre Langue de Serpent, est désormais tombé sous la coupe du malfaisant Magicien. Eowyn, la nièce du Roi, reconnaà®t en Aragorn un meneur d'hommes. Entretemps, les Hobbits Merry et Pippin, prisonniers des Uruk-hai, se sont échappés et ont découvert dans la mystérieuse Forèt de Fangorn un allié inattendu : Sylvebarbe, gardien des arbres, représentant d'un ancien peuple végétal dont Saroumane a décimé la forèt...",
-  "price" : "5€"
- },
- {
-  "url" : "../../images/aventure/lesdeuxtours-2002-aventure.jpg",
-  "name" : "Le seigneur des anneaux : les deux tours",
-  "date" : "2002",
-  "genre" : "aventure",
-  "trailer" : "https://www.youtube.com/watch?v=c9blKqmyeV4",
-  "storyline" : "Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'Emyn Muil, Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'Anneau. Celui-ci promet de conduire les Hobbits jusqu'à la Porte Noire du Mordor. A travers la Terre du Milieu, Aragorn, Legolas et Gimli font route vers le Rohan, le royaume assiégé de Theoden. Cet ancien grand roi, manipulé par l'espion de Saroumane, le sinistre Langue de Serpent, est désormais tombé sous la coupe du malfaisant Magicien. Eowyn, la nièce du Roi, reconnaà®t en Aragorn un meneur d'hommes. Entretemps, les Hobbits Merry et Pippin, prisonniers des Uruk-hai, se sont échappés et ont découvert dans la mystérieuse Forèt de Fangorn un allié inattendu : Sylvebarbe, gardien des arbres, représentant d'un ancien peuple végétal dont Saroumane a décimé la forèt...",
-  "price" : "5€"
- },
- {
-  "url" : "../../images/action/mazerunner3-2018-action.jpeg",
-  "name" : "Le Labyrinthe 3: le remède mortel",
-  "date" : "2018",
-  "genre" : "action",
-  "trailer" : "https://www.youtube.com/watch?v=HuXEKU0PTzw",
-  "storyline" : "Dans ce dernier volet de l'épopée LE LABYRINTHE, Thomas et les Blocards s'engagent dans une ultime mission, plus dangereuse que jamais. Afin de sauver leurs amis, ils devront pénétrer dans la légendaire et sinueuse Dernière Ville contrà´lée par la terrible organisation WICKED. Une cité qui pourrait s'avérer ètre le plus redoutable des labyrinthes. Seuls les Blocards qui parviendront à en sortir vivants auront une chance d'obtenir les réponses tant recherchées depuis leur réveil au coeur du Labyrinthe.",
-  "price" : "15€"
- },
- {
-  "url" : "../../images/scifi/pacificrimuprising-2018-scifi.jpg",
-  "name" : "Pacific Rim Uprising",
-  "date" : "2018",
-  "genre" : "science fiction",
-  "trailer" : "https://www.youtube.com/watch?v=ItD0FNYiX-Q",
-  "storyline" : "Le conflit planétaire qui oppose les Kaiju, créatures extraterrestres, aux Jaegers, robots géants pilotés par des humains, n'était que la première vague d'une attaque massive contre l'Humanité.Jake Pentecost, un jeune pilote de Jaeger prometteur dont le célèbre père a sacrifié sa vie pour sauver l'Humanité des monstrueux Kaiju a depuis abandonné son entraà®nement et s'est retrouvé pris dans l'engrenage du milieu criminel.Mais lorsqu'une menace, encore plus irrésistible que la précédente, se répand dans les villes et met le monde à feu et à sang, Jake obtient une dernière chance de perpétuer la légende de son père aux cà´tés de sa soeur, Mako Mori - qui guide une courageuse génération de pilotes ayant grandi dans l'ombre de la guerre. Alors qu'ils sont en quète de justice pour leurs camarades tombés au combat, leur unique espoir est de s'allier dans un soulèvement général contre la menace des Kaiju. Jake est rejoint par son rival, le talentueux pilote Lambert et par Amara, une hackeuse de Jaeger à¢gée de 15 ans, les héros du Corps de Défense du Pan Pacific devenant la seule famille qui lui reste.S'alliant pour devenir la plus grande force de défense que la Terre n'ait jamais connue, ils vont paver un chemin vers une extraordinaire nouvelle aventure.",
-  "price" : "16€"
- },
- {
-  "url" : "../../images/thriller/seven-1995-thriller.jpg",
-  "name" : "Seven",
-  "date" : "1996",
-  "genre" : "thriller",
-  "trailer" : "https://www.youtube.com/watch?v=J4YV2_TcCoE",
-  "storyline" : "Pour conclure sa carrière, l'inspecteur Somerset, vieux flic blasé, tombe à sept jours de la retraite sur un criminel peu ordinaire. John Doe, c'est ainsi que se fait appeler l'assassin, a decidé de nettoyer la societé des maux qui la rongent en commettant sept meurtres basés sur les sept pechés capitaux: la gourmandise, l'avarice, la paresse, l'orgueil, la luxure, l'envie et la colère.",
-  "price" : "16€"
- },
- {
-  "url" : "../../images/thriller/shutterisland-2010-thriller.jpg",
-  "name" : "Shutter Island",
-  "date" : "2010",
-  "genre" : "thriller",
-  "trailer" : "https://www.youtube.com/watch?v=5iaYLCiq5RM",
-  "storyline" : "En 1954, le marshal Teddy Daniels et son coéquipier Chuck Aule sont envoyés enquèter sur l'à®le de Shutter Island, dans un hà´pital psychiatrique oà¹ sont internés de dangereux criminels. L'une des patientes, Rachel Solando, a inexplicablement disparu. Comment la meurtrière a-t-elle pu sortir d'une cellule fermée de l'extérieur ? Le seul indice retrouvé dans la pièce est une feuille de papier sur laquelle on peut lire une suite de chiffres et de lettres sans signification apparente. Oeuvre cohérente d'une malade, ou cryptogramme ?",
-  "price" : "8€"
- },
- {
-  "url" : "../../images/scifi/starwarsempire-1980-scifi.jpg",
-  "name" : "Star Wars, épisode V : L'Empire contre-attaque",
-  "date" : "1980",
-  "genre" : "science fiction",
-  "trailer" : "https://www.youtube.com/watch?v=Z7B0vfamFTE",
-  "storyline" : "Malgré la destruction de l'Etoile Noire, l'Empire maintient son emprise sur la galaxie, et poursuit sans relà¢che sa lutte contre l'Alliance rebelle. Basés sur la planète glacée de Hoth, les rebelles essuient un assaut des troupes impériales. Parvenus à s'échapper, la princesse Leia, Han Solo, Chewbacca et C-3P0 se dirigent vers Bespin, la cité des nuages gouvernée par Lando Calrissian, ancien compagnon de Han. Suivant les instructions d'Obi-Wan Kenobi, Luke Skywalker se rend quant à lui vers le système de Dagobah, planète marécageuse oà¹ il doit recevoir l'enseignement du dernier maà®tre Jedi, Yoda. Apprenant l'arrestation de ses compagnons par les stormtroopers de Dark Vador après la trahison de Lando, Luke décide d'interrompre son entraà®nement pour porter secours à ses amis et affronter le sombre seigneur Sith...",
-  "price" : "5€"
- },
- {
-  "url" : "../../images/scifi/starwarsthelastjedi-2018-scifi.jpeg",
-  "name" : "Star Wars 8 : Les Derniers Jedi",
-  "date" : "2017",
-  "genre" : "science fiction",
-  "trailer" : "https://www.youtube.com/watch?v=wY708Ky2SG8",
-  "storyline" : "Les héros du Réveil de la force rejoignent les figures légendaires de la galaxie dans une aventure épique qui révèle des secrets ancestraux sur la Force et entraà®ne de surprenantes révélations sur le passéâ€¦",
-  "price" : "18€"
- },
- {
-  "url" : "../../images/comedie/Survivestyle5-2004-comedie.jpg",
-  "name" : "Survive Style 5+",
-  "date" : "2004",
-  "genre" : "comedie",
-  "trailer" : "https://www.youtube.com/watch?v=scD2IFNpesg",
-  "storyline" : "Un mari et sa femme mourante, un hypnotiseur à succès, une publicitaire, un homme convaincu d'ètre un oiseau, un gang de trois voleurs et un tueur à gages. Les vies de ces différents personnages, qui a priori n'ont pas grand chose en commun, vont se retrouver étroitement liées, s'entremèler et s'acheminer inexorablement vers une fin des plus surprenantes.",
-  "price" : "8€"
- },
- {
-  "url" : "../../images/comedie/swissarmyman-2016-comedie.jpg",
-  "name" : "Swiss Army Man",
-  "date" : "2018",
-  "genre" : "comédie",
-  "trailer" : "https://www.youtube.com/watch?v=QHkKEBY13A0",
-  "storyline" : "Hank, un homme désespéré errant dans la nature, découvre un mystérieux cadavre. Ils vont tous les deux embarquer dans un voyage épique afin de retrouver leur foyer. Lorsque Hank réalise que ce corps abandonné est la clé de sa survie, le suicidaire d'autrefois est forcé de convaincre un cadavre que la vie vaut la peine d'ètre vécu.",
-  "price" : "17€"
- },
- {
-  "url" : "../../images/dramatique/thefall-2006-dramatique.jpg",
-  "name" : "The fall",
-  "date" : "2006",
-  "genre" : "drame",
-  "trailer" : "https://www.youtube.com/watch?v=LEH7nDkiPEk",
-  "storyline" : "Los Angeles, années 1920. Alexandria, cinq ans, est hospitalisée à la suite d'une chute. Elle se lie d'amitié avec Roy, cascadeur à Hollywood, lui aussi victime d'un accident. Le jeune homme se lance dans le récit d'une histoire épique avec le gouverneur Odieux et les 5 fantastiques déterminés à le combattre. Très vite, la frontière entre la réalité et ce monde éblouissant de magie et de mythes commence à disparaà®tre quand la petite Alexandra réalise qu'il existe un véritable enjeu....",
-  "price" : "8€"
- },
- {
-  "url" : "../../images/fantastique/TheGreatestShowman-2018-fantastique.jpg",
-  "name" : "The Greatest Showman",
-  "date" : "2018",
-  "genre" : "fantastique",
-  "trailer" : "https://www.youtube.com/watch?v=a5YPC-qXJl0",
-  "storyline" : "The Greatest Showman célèbre la naissance du show-business et l'émerveillement que l'on éprouve lorsque les rèves deviennent réalité. Inspirée par l'ambition et l'imagination de P.T Barnum, voici l'histoire d'un visionnaire parti de rien qui a créé un spectacle devenu un phénomène planétaire..",
-  "price" : "16€"
- },
- {
-  "url" : "../../images/action/TombRaider-2018-action.jpg",
-  "name" : "Tomb Raider",
-  "date" : "2018",
-  "genre" : "action",
-  "trailer" : "https://www.youtube.com/watch?v=70NUW9KSVKM",
-  "storyline" : "Lara Croft, 21 ans, n'a ni projet, ni ambition : fille d'un explorateur excentrique porté disparu depuis sept ans, cette jeune femme rebelle et indépendante refuse de reprendre l'empire de son père. Convaincue qu'il n'est pas mort, elle met le cap sur la destination oà¹ son père a été vu pour la dernière fois : la tombe légendaire d'une à®le mythique au large du Japon. Mais le voyage se révèle des plus périlleux et il lui faudra affronter d'innombrables ennemis et repousser ses propres limites pour devenir Tomb Raiderâ€¦",
-  "price" : "16€"
- },
- {
-  "url" : "../../images/comedie/WhatWeDoInTheShadows-2014-comedie.jpg",
-  "name" : "What We Do In The Shadows",
-  "date" : "2014",
-  "genre" : "comédie",
-  "trailer" : "https://www.youtube.com/watch?v=Cv568AzZ-i8",
-  "storyline" : "Comment fait-on quand on est vampires depuis des siècles et qu'on doit discrètement vivre en coloc en 2015 dans la banlieue de Limoges ?C'est ce que nous propose de découvrir une équipe de documentaire, en partageant l'intimité d'une bande de potes suceurs de sang ! Geoffroy, Miguel, Aymeric etBernard nous ouvrent les portes de leur coeur et celle de leur quotidien un tout petit peu complexe. Comment organiser les tours de vaisselles sur 5 siècles ? Commentrentrer en boà®te de nuit en redingote et chemise à jabot ? La vie éternelle, est-ce vraiment si cool ? Doit-on forcément traiter son esclave comme un esclave ? Un humain peut-ilaussi ètre un ami et pas un diner ? Comment éteindre un pote vampire qui a pris feu sans extincteur ? Comment dévorer une fille sans lui faire passer une trop mauvaisesoirée quand mème ? Comment se retenir de casser la figure à JC, apprenti vampire super sympa mais super pas discret ?Autant de questions auxquelles ils n'ont pas forcément les bonnes réponses !",
-  "price" : "16€"
- },
- {
-  "url" : "../../images/comedie/zoolander-2001-comedie.jpg",
-  "name" : "Zoolander",
-  "date" : "2001",
-  "genre" : "comédie",
-  "trailer" : "https://www.youtube.com/watch?v=YtQq0T3ExLs",
-  "storyline" : "Derek Zoolander, un célèbre mannequin, est à l'apogée de sa carrière. Couronné trois fois de suite Top model de l'année, il est sur le point de recevoir son quatrième trophée lorsque ce titre lui est ravi par un jeune et ambitieux challenger : Hansel. Effondrée, l'idole des podiums décide d'abandonner l'univers futile de la mode pour se ressourcer au sein de sa famille en Pennsylvanie. C'est alors que Maury Ballstein, son agent, et Jacobim Mugatu, un styliste déjanté, proposent à Zoolander de devenir la star de la nouvelle ligne de vètements Derelicte. Zoolander accepte, mais il est loin de s'imaginer que le diabolique Mugatu, secondé de la troublante Katinka, s'apprète à lui effectuer un lavage de cerveau. Ainsi lobotomisé, Derek pourrait exécuter plus facilement ses ordres, à savoir assassiner le président de la Malaisie.",
-  "price" : "16€"
- },
+  {
+		"url": "./Assets/images/action/avengersinfinitywar-2018-action.jpg",
+		"name": "Avengers Infinity War",
+		"date": "2018",
+		"genre": "action",
+		"trailer": "https://www.youtube.com/embed/QwievZ1Tx-8?rel=0",
+		"storyline": "Les Avengers et leurs alliés devront ètre prèts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l'univers.",
+		"price": "16€"
+	},
+	{
+		"url": "./Assets/images/comedie/batmanmovie-2017-comedie.jpg",
+		"name": "Lego Batman, le film",
+		"date": "2017",
+		"genre": "animation",
+		"trailer": "https://www.youtube.com/embed/hd6dqh9BjHo",
+		"storyline": "Il en rèvait depuis La Grande Aventure Lego : Batman est enfin le héros de son propre film ! Mais la situation a bien changé à Gotham - et s'il veut sauver la ville des griffes du Joker, il lui faudra arrèter de jouer au justicier masqué et découvrir le travail d'équipe ! Peut-ètre pourra-t-il alors se décoincer un peuâ€¦",
+		"price": "7,30€"
+	},
+	{
+		"url": "./Assets/images/action/deadpool2-2018-action.jpg",
+		"name": "Deadpool 2",
+		"date": "2018",
+		"genre": "action",
+		"trailer": "https://www.youtube.com/embed/QgzslSsSECM",
+		"storyline": "L'insolent mercenaire de Marvel remet le masque ! Plus grand, plus-mieux, et occasionnellement les fesses à l'air, il devra affronter un Super-Soldat dressé pour tuer, repenser l'amitié, la famille, et ce que signifie l'héroïsme - tout en bottant cinquante nuances de culs, car comme chacun sait, pour faire le Bien, il faut parfois se salir les doigts.",
+		"price": "18€"
+	},
+	{
+		"url": "./Assets/images/exorcism.jpg",
+		"name": "L'exorcisme de Molly Hartley",
+		"date": "2015",
+		"genre": "horreur",
+		"trailer": "https://www.youtube.com/embed/CZt1btSODAk",
+		"storyline": "Après avoir été accusée du meurtre d'un couple, Molly Hartley est admise dans un institut psychiatrique sous les soins du prètre John Barrow et de la docteure Laurie Hawthor.",
+		"price": "7,30€"
+	},
+	{
+		"url": "./Assets/images/thriller/hostel-2005-thriller.jpg",
+		"name": "Hostel",
+		"date": "2005",
+		"genre": "horreur",
+		"trailer": "https://www.youtube.com/embed/Dm2i-uLCjNM",
+		"storyline": "Deux étudiants américains, Paxton et Josh, ont décidé de découvrir l'Europe avec un maximum d'aventures et de sensations fortes. Avec Oli, un Islandais qu'ils ont rencontré en chemin, ils se retrouvent dans une petite ville de Slovaquie dans ce qu'on leur a décrit comme le nirvana des vacances de débauche : une propriété très spéciale, pleine de filles aussi belles que faciles...Natalya et Svetlana sont effectivement très cools... un peu trop, mème. Paxton et Josh vont vite se rendre compte qu'ils sont tombés dans un piège. Ce voyage-là va les conduire au bout de l'horreur... ",
+		"price": "5€"
+	},
+	{
+		"url": "./Assets/images/scifi/inception-2010-scifi.jpg",
+		"name": "Inception",
+		"date": "2010",
+		"genre": "science fiction",
+		"trailer": "https://www.youtube.com/embed/B4nIVh1yvvc",
+		"storyline": "Dom Cobb est un voleur expérimenté - le meilleur qui soit dans l'art périlleux de l'extraction : sa spécialité consiste à s'approprier les secrets les plus précieux d'un individu, enfouis au plus profond de son subconscient, pendant qu'il rève et que son esprit est particulièrement vulnérable. Très recherché pour ses talents dans l'univers trouble de l'espionnage industriel, Cobb est aussi devenu un fugitif traqué dans le monde entier qui a perdu tout ce qui lui est cher. Mais une ultime mission pourrait lui permettre de retrouver sa vie d'avant - à condition qu'il puisse accomplir l'impossible : l'inception. Au lieu de subtiliser un rève, Cobb et son équipe doivent faire l'inverse : implanter une idée dans l'esprit d'un individu. S'ils y parviennent, il pourrait s'agir du crime parfait. Et pourtant, aussi méthodiques et doués soient-ils, rien n'aurait pu préparer Cobb et ses partenaires à un ennemi redoutable qui semble avoir systématiquement un coup d'avance sur eux. Un ennemi dont seul Cobb aurait pu soupà§onner l'existence.",
+		"price": "8€"
+	},
+	{
+		"url": "./Assets/images/comedie/intouchables-2011-comedie.jpg",
+		"name": "Intouchables",
+		"date": "2011",
+		"genre": "comédie dramatique",
+		"trailer": "https://www.youtube.com/embed/cXu2MhWYUuE&gl=BE",
+		"storyline": "A la suite d'un accident de parapente, Philippe, riche aristocrate, engage comme aide à domicile Driss, un jeune de banlieue tout juste sorti de prison. Bref la personne la moins adaptée pour le job. Ensemble ils vont faire cohabiter Vivaldi et Earth Wind and Fire, le verbe et la vanne, les costumes et les bas de survètement... Deux univers vont se télescoper, s'apprivoiser, pour donner naissance à une amitié aussi dingue, drà´le et forte qu'inattendue, une relation unique qui fera des étincelles et qui les rendra... Intouchables.",
+		"price": "8€"
+	},
+	{
+		"url": "./Assets/images/comedie/jumanji-2018-comedie.jpg",
+		"name": "Jumanji : Bienvenue dans la jungle",
+		"date": "2018",
+		"genre": "aventure",
+		"trailer": "https://www.youtube.com/embed/1iyVQy2Z_KM",
+		"storyline": "Le destin de quatre lycéens en retenue bascule lorsqu'ils sont aspirés dans le monde de Jumanji. Après avoir découvert une vieille console contenant un jeu vidéo dont ils n'avaient jamais entendu parler, les quatre jeunes se retrouvent mystérieusement propulsés au coeur de la jungle de Jumanji, dans le corps de leurs avatars. Ils vont rapidement découvrir que l'on ne joue pas à Jumanji, c'est le jeu qui joue avec vousâ€¦ Pour revenir dans le monde réel, il va leur falloir affronter les pires dangers et triompher de l'ultime aventure. Sinon, ils resteront à jamais prisonniers de Jumanjiâ€¦",
+		"price": "17€"
+	},
+	{
+		"url": "./Assets/images/action/jurassicworld2-2018-action.jpg",
+		"name": "Jurassic World: Fallen Kingdom",
+		"date": "2018",
+		"genre": "aventure",
+		"trailer": "https://www.youtube.com/embed/4-kBkhp2D-g",
+		"storyline": "Cela fait maintenant trois ans que les dinosaures se sont échappés de leurs enclos et ont détruit le parc à thème et complexe de luxe Jurassic World. Isla Nublar a été abandonnée par les humains alors que les dinosaures survivants sont livrés à eux-mèmes dans la jungle. Lorsque le volcan inactif de l'à®le commence à rugir, Owen et Claire s'organisent pour sauver les dinosaures restants de l'extinction. Owen se fait un devoir de retrouver Blue, son principal raptor qui a disparu dans la nature, alors que Claire, qui a maintenant un véritable respect pour ces créatures, s'en fait une mission. Arrivant sur l'à®le instable alors que la lave commence à pleuvoir, leur expédition découvre une conspiration qui pourrait ramener toute notre planète à un ordre périlleux jamais vu depuis la préhistoire.",
+		"price": "17€"
+	},
+	{
+		"url": "./Assets/images/dramatique/lepatientanglais-1996-dramatique.jpg",
+		"name": "Le patient anglais",
+		"date": "1996",
+		"genre": "drame",
+		"trailer": "https://www.youtube.com/embed/FguRZAv_LS4",
+		"storyline": "En 1945, quatre personnes dechirées par la guerre se réfugient dans un monastère abandonné de Toscane pour se guérir de leurs maux. Peu à peu le passé va resurgir et la présence d'un homme mystérieux et méconnaissable, le patient anglais, va bouleverser le destin de ceux qui croisent son chemin.",
+		"price": "5€"
+	},
+	{
+		"url": "./Assets/images/aventure/lesdeuxtours-2002-aventure.jpg",
+		"name": "Le seigneur des anneaux : les deux tours",
+		"date": "2002",
+		"genre": "aventure",
+		"trailer": "https://www.youtube.com/embed/c9blKqmyeV4",
+		"storyline": "Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'Emyn Muil, Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'Anneau. Celui-ci promet de conduire les Hobbits jusqu'à la Porte Noire du Mordor. A travers la Terre du Milieu, Aragorn, Legolas et Gimli font route vers le Rohan, le royaume assiégé de Theoden. Cet ancien grand roi, manipulé par l'espion de Saroumane, le sinistre Langue de Serpent, est désormais tombé sous la coupe du malfaisant Magicien. Eowyn, la nièce du Roi, reconnaà®t en Aragorn un meneur d'hommes. Entretemps, les Hobbits Merry et Pippin, prisonniers des Uruk-hai, se sont échappés et ont découvert dans la mystérieuse Forèt de Fangorn un allié inattendu : Sylvebarbe, gardien des arbres, représentant d'un ancien peuple végétal dont Saroumane a décimé la forèt...",
+		"price": "5€"
+	},
+	{
+		"url": "./Assets/images/aventure/lesdeuxtours-2002-aventure.jpg",
+		"name": "Le seigneur des anneaux : les deux tours",
+		"date": "2002",
+		"genre": "aventure",
+		"trailer": "https://www.youtube.com/embed/c9blKqmyeV4",
+		"storyline": "Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'Emyn Muil, Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'Anneau. Celui-ci promet de conduire les Hobbits jusqu'à la Porte Noire du Mordor. A travers la Terre du Milieu, Aragorn, Legolas et Gimli font route vers le Rohan, le royaume assiégé de Theoden. Cet ancien grand roi, manipulé par l'espion de Saroumane, le sinistre Langue de Serpent, est désormais tombé sous la coupe du malfaisant Magicien. Eowyn, la nièce du Roi, reconnaà®t en Aragorn un meneur d'hommes. Entretemps, les Hobbits Merry et Pippin, prisonniers des Uruk-hai, se sont échappés et ont découvert dans la mystérieuse Forèt de Fangorn un allié inattendu : Sylvebarbe, gardien des arbres, représentant d'un ancien peuple végétal dont Saroumane a décimé la forèt...",
+		"price": "5€"
+	},
+	{
+		"url": "./Assets/images/action/mazerunner3-2018-action.jpeg",
+		"name": "Le Labyrinthe 3: le remède mortel",
+		"date": "2018",
+		"genre": "action",
+		"trailer": "https://www.youtube.com/embed/HuXEKU0PTzw",
+		"storyline": "Dans ce dernier volet de l'épopée LE LABYRINTHE, Thomas et les Blocards s'engagent dans une ultime mission, plus dangereuse que jamais. Afin de sauver leurs amis, ils devront pénétrer dans la légendaire et sinueuse Dernière Ville contrà´lée par la terrible organisation WICKED. Une cité qui pourrait s'avérer ètre le plus redoutable des labyrinthes. Seuls les Blocards qui parviendront à en sortir vivants auront une chance d'obtenir les réponses tant recherchées depuis leur réveil au coeur du Labyrinthe.",
+		"price": "15€"
+	},
+	{
+		"url": "./Assets/images/scifi/pacificrimuprising-2018-scifi.jpg",
+		"name": "Pacific Rim Uprising",
+		"date": "2018",
+		"genre": "science fiction",
+		"trailer": "https://www.youtube.com/embed/ItD0FNYiX-Q",
+		"storyline": "Le conflit planétaire qui oppose les Kaiju, créatures extraterrestres, aux Jaegers, robots géants pilotés par des humains, n'était que la première vague d'une attaque massive contre l'Humanité.Jake Pentecost, un jeune pilote de Jaeger prometteur dont le célèbre père a sacrifié sa vie pour sauver l'Humanité des monstrueux Kaiju a depuis abandonné son entraà®nement et s'est retrouvé pris dans l'engrenage du milieu criminel.Mais lorsqu'une menace, encore plus irrésistible que la précédente, se répand dans les villes et met le monde à feu et à sang, Jake obtient une dernière chance de perpétuer la légende de son père aux cà´tés de sa soeur, Mako Mori - qui guide une courageuse génération de pilotes ayant grandi dans l'ombre de la guerre. Alors qu'ils sont en quète de justice pour leurs camarades tombés au combat, leur unique espoir est de s'allier dans un soulèvement général contre la menace des Kaiju. Jake est rejoint par son rival, le talentueux pilote Lambert et par Amara, une hackeuse de Jaeger à¢gée de 15 ans, les héros du Corps de Défense du Pan Pacific devenant la seule famille qui lui reste.S'alliant pour devenir la plus grande force de défense que la Terre n'ait jamais connue, ils vont paver un chemin vers une extraordinaire nouvelle aventure.",
+		"price": "16€"
+	},
+	{
+		"url": "./Assets/images/thriller/seven-1995-thriller.jpg",
+		"name": "Seven",
+		"date": "1996",
+		"genre": "thriller",
+		"trailer": "https://www.youtube.com/embed/J4YV2_TcCoE",
+		"storyline": "Pour conclure sa carrière, l'inspecteur Somerset, vieux flic blasé, tombe à sept jours de la retraite sur un criminel peu ordinaire. John Doe, c'est ainsi que se fait appeler l'assassin, a decidé de nettoyer la societé des maux qui la rongent en commettant sept meurtres basés sur les sept pechés capitaux: la gourmandise, l'avarice, la paresse, l'orgueil, la luxure, l'envie et la colère.",
+		"price": "16€"
+	},
+	{
+		"url": "./Assets/images/thriller/shutterisland-2010-thriller.jpg",
+		"name": "Shutter Island",
+		"date": "2010",
+		"genre": "thriller",
+		"trailer": "https://www.youtube.com/embed/5iaYLCiq5RM",
+		"storyline": "En 1954, le marshal Teddy Daniels et son coéquipier Chuck Aule sont envoyés enquèter sur l'à®le de Shutter Island, dans un hà´pital psychiatrique oà¹ sont internés de dangereux criminels. L'une des patientes, Rachel Solando, a inexplicablement disparu. Comment la meurtrière a-t-elle pu sortir d'une cellule fermée de l'extérieur ? Le seul indice retrouvé dans la pièce est une feuille de papier sur laquelle on peut lire une suite de chiffres et de lettres sans signification apparente. Oeuvre cohérente d'une malade, ou cryptogramme ?",
+		"price": "8€"
+	},
+	{
+		"url": "./Assets/images/scifi/starwarsempire-1980-scifi.jpg",
+		"name": "Star Wars, épisode V : L'Empire contre-attaque",
+		"date": "1980",
+		"genre": "science fiction",
+		"trailer": "https://www.youtube.com/embed/Z7B0vfamFTE",
+		"storyline": "Malgré la destruction de l'Etoile Noire, l'Empire maintient son emprise sur la galaxie, et poursuit sans relà¢che sa lutte contre l'Alliance rebelle. Basés sur la planète glacée de Hoth, les rebelles essuient un assaut des troupes impériales. Parvenus à s'échapper, la princesse Leia, Han Solo, Chewbacca et C-3P0 se dirigent vers Bespin, la cité des nuages gouvernée par Lando Calrissian, ancien compagnon de Han. Suivant les instructions d'Obi-Wan Kenobi, Luke Skywalker se rend quant à lui vers le système de Dagobah, planète marécageuse oà¹ il doit recevoir l'enseignement du dernier maà®tre Jedi, Yoda. Apprenant l'arrestation de ses compagnons par les stormtroopers de Dark Vador après la trahison de Lando, Luke décide d'interrompre son entraà®nement pour porter secours à ses amis et affronter le sombre seigneur Sith...",
+		"price": "5€"
+	},
+	{
+		"url": "./Assets/images/scifi/starwarsthelastjedi-2018-scifi.jpeg",
+		"name": "Star Wars 8 : Les Derniers Jedi",
+		"date": "2017",
+		"genre": "science fiction",
+		"trailer": "https://www.youtube.com/embed/wY708Ky2SG8",
+		"storyline": "Les héros du Réveil de la force rejoignent les figures légendaires de la galaxie dans une aventure épique qui révèle des secrets ancestraux sur la Force et entraà®ne de surprenantes révélations sur le passéâ€¦",
+		"price": "18€"
+	},
+	{
+		"url": "./Assets/images/comedie/Survivestyle5-2004-comedie.jpg",
+		"name": "Survive Style 5+",
+		"date": "2004",
+		"genre": "comedie",
+		"trailer": "https://www.youtube.com/embed/scD2IFNpesg",
+		"storyline": "Un mari et sa femme mourante, un hypnotiseur à succès, une publicitaire, un homme convaincu d'ètre un oiseau, un gang de trois voleurs et un tueur à gages. Les vies de ces différents personnages, qui a priori n'ont pas grand chose en commun, vont se retrouver étroitement liées, s'entremèler et s'acheminer inexorablement vers une fin des plus surprenantes.",
+		"price": "8€"
+	},
+	{
+		"url": "./Assets/images/comedie/swissarmyman-2016-comedie.jpg",
+		"name": "Swiss Army Man",
+		"date": "2018",
+		"genre": "comédie",
+		"trailer": "https://www.youtube.com/embed/QHkKEBY13A0",
+		"storyline": "Hank, un homme désespéré errant dans la nature, découvre un mystérieux cadavre. Ils vont tous les deux embarquer dans un voyage épique afin de retrouver leur foyer. Lorsque Hank réalise que ce corps abandonné est la clé de sa survie, le suicidaire d'autrefois est forcé de convaincre un cadavre que la vie vaut la peine d'ètre vécu.",
+		"price": "17€"
+	},
+	{
+		"url": "./Assets/images/dramatique/thefall-2006-dramatique.jpg",
+		"name": "The fall",
+		"date": "2006",
+		"genre": "drame",
+		"trailer": "https://www.youtube.com/embed/LEH7nDkiPEk",
+		"storyline": "Los Angeles, années 1920. Alexandria, cinq ans, est hospitalisée à la suite d'une chute. Elle se lie d'amitié avec Roy, cascadeur à Hollywood, lui aussi victime d'un accident. Le jeune homme se lance dans le récit d'une histoire épique avec le gouverneur Odieux et les 5 fantastiques déterminés à le combattre. Très vite, la frontière entre la réalité et ce monde éblouissant de magie et de mythes commence à disparaà®tre quand la petite Alexandra réalise qu'il existe un véritable enjeu....",
+		"price": "8€"
+	},
+	{
+		"url": "./Assets/images/fantastique/TheGreatestShowman-2018-fantastique.jpg",
+		"name": "The Greatest Showman",
+		"date": "2018",
+		"genre": "fantastique",
+		"trailer": "https://www.youtube.com/embed/a5YPC-qXJl0",
+		"storyline": "The Greatest Showman célèbre la naissance du show-business et l'émerveillement que l'on éprouve lorsque les rèves deviennent réalité. Inspirée par l'ambition et l'imagination de P.T Barnum, voici l'histoire d'un visionnaire parti de rien qui a créé un spectacle devenu un phénomène planétaire..",
+		"price": "16€"
+	},
+	{
+		"url": "./Assets/images/action/TombRaider-2018-action.jpg",
+		"name": "Tomb Raider",
+		"date": "2018",
+		"genre": "action",
+		"trailer": "https://www.youtube.com/embed/70NUW9KSVKM",
+		"storyline": "Lara Croft, 21 ans, n'a ni projet, ni ambition : fille d'un explorateur excentrique porté disparu depuis sept ans, cette jeune femme rebelle et indépendante refuse de reprendre l'empire de son père. Convaincue qu'il n'est pas mort, elle met le cap sur la destination oà¹ son père a été vu pour la dernière fois : la tombe légendaire d'une à®le mythique au large du Japon. Mais le voyage se révèle des plus périlleux et il lui faudra affronter d'innombrables ennemis et repousser ses propres limites pour devenir Tomb Raiderâ€¦",
+		"price": "16€"
+	},
+	{
+		"url": "./Assets/images/comedie/WhatWeDoInTheShadows-2014-comedie.jpg",
+		"name": "What We Do In The Shadows",
+		"date": "2014",
+		"genre": "comédie",
+		"trailer": "https://www.youtube.com/embed/Cv568AzZ-i8",
+		"storyline": "Comment fait-on quand on est vampires depuis des siècles et qu'on doit discrètement vivre en coloc en 2015 dans la banlieue de Limoges ?C'est ce que nous propose de découvrir une équipe de documentaire, en partageant l'intimité d'une bande de potes suceurs de sang ! Geoffroy, Miguel, Aymeric etBernard nous ouvrent les portes de leur coeur et celle de leur quotidien un tout petit peu complexe. Comment organiser les tours de vaisselles sur 5 siècles ? Commentrentrer en boà®te de nuit en redingote et chemise à jabot ? La vie éternelle, est-ce vraiment si cool ? Doit-on forcément traiter son esclave comme un esclave ? Un humain peut-ilaussi ètre un ami et pas un diner ? Comment éteindre un pote vampire qui a pris feu sans extincteur ? Comment dévorer une fille sans lui faire passer une trop mauvaisesoirée quand mème ? Comment se retenir de casser la figure à JC, apprenti vampire super sympa mais super pas discret ?Autant de questions auxquelles ils n'ont pas forcément les bonnes réponses !",
+		"price": "16€"
+	},
+	{
+		"url": "./Assets/images/comedie/zoolander-2001-comedie.jpg",
+		"name": "Zoolander",
+		"date": "2001",
+		"genre": "comédie",
+		"trailer": "https://www.youtube.com/embed/YtQq0T3ExLs",
+		"storyline": "Derek Zoolander, un célèbre mannequin, est à l'apogée de sa carrière. Couronné trois fois de suite Top model de l'année, il est sur le point de recevoir son quatrième trophée lorsque ce titre lui est ravi par un jeune et ambitieux challenger : Hansel. Effondrée, l'idole des podiums décide d'abandonner l'univers futile de la mode pour se ressourcer au sein de sa famille en Pennsylvanie. C'est alors que Maury Ballstein, son agent, et Jacobim Mugatu, un styliste déjanté, proposent à Zoolander de devenir la star de la nouvelle ligne de vètements Derelicte. Zoolander accepte, mais il est loin de s'imaginer que le diabolique Mugatu, secondé de la troublante Katinka, s'apprète à lui effectuer un lavage de cerveau. Ainsi lobotomisé, Derek pourrait exécuter plus facilement ses ordres, à savoir assassiner le président de la Malaisie.",
+		"price": "16€"
+	}
 ]

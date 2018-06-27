@@ -71,6 +71,72 @@ function GoogleMap() {
 // CONTACT //
 // SHOP MOVIE //
 
+function shop(num1, num2) {
+  $.getJSON('./Assets/bibliotheque/JSON/movies.json', function(data){
+    for(i = num1; i <= num2; i++){
+      let img = data[i].url;
+      let title = data[i].name;
+      let year = data[i].date;
+      let price = data[i].price;
+      let id = 'movieID' + i
+      let entry = '<div class="col-12 col-md-3 col-sm-6 col-lg-3"><div class="card imgclick" id=' + id + '><img class="card-img-top imgclick2" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center txt1 filmouf">' + title + '</div><br><div class="row"><div class="col txt1">' + year + '</div><div class="col txt1 prix">' + price + '</div></div></div></div></div>';
+      if(i % 2 === 0){
+        $(entry).appendTo($('.wrapperShop1'));
+      } else {
+        $(entry).appendTo($('.wrapperShop2'));
+      }
+    }
+  });
+}
+
+//show more or less movies on shop section
+
+shop(0, 7);
+let x = 0;
+let y = 7;
+$('#shopForward').click(function(){
+  $(".wrapperShop1").empty();
+  $(".wrapperShop2").empty();
+  x += 8;
+  y += 8;
+  if(x<32){
+    shop(x, y);
+    $('#shopBack').removeAttr("disabled");
+  } else {
+    shop(32, 39);
+    $(this).attr("disabled", "true");
+  }
+});
+
+$('#shopBack').click(function(){
+  $(".wrapperShop1").empty();
+  $(".wrapperShop2").empty();
+  x -= 8;
+  y -= 8;
+  if(x <= 0) {
+    $(this).attr("disabled", "true");
+    shop(0, 7);
+  } else {
+    shop(x, y);
+    $('#shopForward').removeAttr("disabled");
+  }
+});
+
+//get trailer for card in shop section
+
+$(document).on("click", ".imgclick", function(){
+  let source = $(this).attr("id");
+  let index2 = Number(source.slice(7));
+  $.getJSON('./Assets/bibliotheque/JSON/movies.json', function(data){
+    let trailer = data[index2].trailer;
+    $('#embed1').attr('src', trailer);
+    $('#embed2').html(data[index2].name);
+    $('#embed3').html(data[index2].storyline);
+    $('#embed4').html(data[index2].date);
+    $('#embed5').html(data[index2].genre);
+    $('#embed6').html(data[index2].price);
+  });
+});
 
 // SHOP MOVIE //
 // BUTTON UP //
@@ -105,6 +171,7 @@ $(document).ready(function(){
   GoogleMap();
   //ageVerif();
   // buttonUp();
+  shop();
 });
 
 // LAUNCHER //

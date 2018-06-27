@@ -13,9 +13,9 @@ body {
 }
 
 .title {
-  border-left: 5px solid #ff2b43;
-  padding-left: 10px;
-  margin: 10px 0 15px -30px;
+  border-left: 0.30em solid #ff2b43;
+  padding-left: 0.60em;
+  margin: 0.60em 0 0.90em -1.15em;
 }
 
 .hidden {
@@ -34,7 +34,7 @@ body {
   position: absolute;
   width: 100%;
   z-index: 10;
-  line-height: 20px;
+  line-height: 1em;
 }
 
 .menu .nav-item a {
@@ -46,7 +46,7 @@ body {
 
 .menu .bg-menu {
   background: rgba(204, 204, 204, 0.7);
-  margin: 5px;
+  margin:  0.3em;
 }
 
 .menu .bg-menu:hover {
@@ -64,13 +64,13 @@ body {
 }
 
 .menu .active a {
-    color: #ff2b43 !important;
-    font-weight: bold;
-    margin-top: 5px;
+  color: #ff2b43 !important;
+  font-weight: bold;
+  margin-top: 0.3em;
 }
 
 .menu .styleAllocine {
-  font-size: 40px;
+  font-size: 2.5em;
   color: #ff2b43 !important;
   font-weight: bold;
 }
@@ -81,7 +81,7 @@ body {
 
 .menu .btn-outline-default {
   border: 2px solid rgb(255, 43, 67) !important;
-  border-radius: 10px;
+  border-radius: 0.6em;
   background: rgba(255, 43, 67, 0) !important;
   color: rgba(255, 255, 255, 1) !important;
 }
@@ -108,18 +108,18 @@ body {
 }
 
 .carousel-caption h5 {
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
 }
 
 .carousel-caption p {
-  margin-bottom: 80px;
+  margin-bottom: 5em;
 }
 
 .carousel-indicators li {
-  margin-bottom: 50px;
+  margin-bottom: 3.125em;
 }
 
 /* SLIDE */
