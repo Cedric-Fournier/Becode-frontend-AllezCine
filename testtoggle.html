@@ -64,6 +64,19 @@
 <script type="text/javascript" id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js"></script>
 
 
+<!-- script choix film filtre -->
 
+<script>
+    $(function() {
+        $('.post').hide();
+        $("#filter button").on("click", function(){
+            var filtertag = $(this).attr('class');
+            $('.post').hide().filter('.' + filtertag).show();
+        })
+            [0].click();
+    });
+</script>
+
+<!-- script choix film filtre -->
 </body>
 </html>

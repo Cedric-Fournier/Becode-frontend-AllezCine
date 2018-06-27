@@ -54,24 +54,69 @@ $('.launch-modal').on('click', function(e){
 // MODAL FILMS //
 
 // FILMS SELECTIONS //
-
+/*
 $('.btn1').click(function(){
     $(this).text(function(i,old){
         return old=='PLUS DE FILMS' ?  'MOINS DE FILMS' : 'PLUS DE FILMS';
     });
-});
+}); */
 
 // FILMS SELECTIONS //
 
 // FILMS FILTER //
 
-$(function() {
+$("#showall").on("click", function(){
+    $("#b1, #b2, #b3").addClass("cachee");
+    $("#c1, #c2, #c3").addClass("cachee");
+    $("#a1, #a2").removeClass("cachee");
+});
+
+$("#showaction").on("click", function(){
+    $("#a1, #a2, #a3").addClass("cachee");
+    $("#c1, #c2, #c3").addClass("cachee");
+    $("#b1, #b2").removeClass("cachee");
+});
+
+$("#showaventure").on("click", function(){
+    $("#a1, #a2, #a3").addClass("cachee");
+    $("#b1, #b2, #b3").addClass("cachee");
+    $("#c1, #c2").removeClass("cachee");
+});
+
+$("#showmore").on("click", function(){
+    if($("#b1").attr("class") == "row cachee" && $("#c1").attr("class") == "row cachee"){
+        $("#a3").removeClass('cachee');
+    }
+    else if($("#a1").attr("class") == "row cachee" && $("#c1").attr("class") == "row cachee"){
+        $("#b3").removeClass('cachee');
+    }
+    else {
+        $("#c3").removeClass('cachee');
+    }
+    $('#showless').removeClass('cachee');
+    $('#showmore').addClass('cachee');
+});
+
+$("#showless").on("click", function(){
+    if($('#a3').attr('class') == "row"){
+        $('#a3').addClass("cachee");
+    }
+    else if($('#b3').attr('class') == "row"){
+        $('#b3').addClass("cachee");
+    }
+    else {
+        $('#c3').addClass("cachee");
+    }
+    $('#showmore').removeClass('cachee');
+    $('#showless').addClass('cachee');
+});
+/*$(function() {
     $('.post').hide();
     $("#filter button").on("click", function(){
         var filtertag = $(this).attr('class');
         $('.post').hide().filter('.' + filtertag).show();
     })
         [0].click();
-});
+});*/
 
 // FILMS FILTER //
