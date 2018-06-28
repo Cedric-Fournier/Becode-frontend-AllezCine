@@ -23,7 +23,6 @@ body {
 }
 
 /* GENERAL */
-
 /* HEADER */
 /* MENU */
 .menu .fa-align-justify {
@@ -107,6 +106,14 @@ body {
   opacity: 0.4;
 }
 
+.carousel-caption p {
+  font-size: 1.5em;
+}
+
+.carousel-caption p strong {
+  color: #ff2b43;
+}
+
 .carousel-caption h5 {
   font-size: 2.5em;
   font-weight: bold;
@@ -115,7 +122,19 @@ body {
 }
 
 .carousel-caption p {
+  margin-bottom: 2em;
+}
+
+.carousel-caption .btn-default {
   margin-bottom: 5em;
+  color: #fff;
+  background: #ff2b43;
+}
+
+.carousel-caption .btn-default:hover {
+  color: #000;
+  background: #ff2b43;
+  border: 1px solid #000;
 }
 
 .carousel-indicators li {
@@ -429,12 +448,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-/*[class*="col"], footer, aside {
-    background-color: lightblue;
-    border: 1px solid blue;
-    line-height: 40px;
-    text-align: center;
-}*/
+
 /* ??? */
 /* MODAL MOVIES */
 
@@ -488,8 +502,55 @@ body {
     font-size: x-small;
 }
 /* MODAL MOVIES */
+/* FEATURED MOVIES */
+.showbut {
+  text-align: center;
+}
+
+.hiddenRow, .showless {
+  display: none;
+}
+
+.featured-movies .btn-default {
+  color: #fff;;
+  background: #ff2b43;
+  border: 1px solid #fff;
+  font-size: 15px;
+}
+
+.featured-movies .btn-default a {
+  color: #fff;;
+  background: #ff2b43;
+  font-size: 15px;
+}
+
+.featured-movies .btn-default:hover {
+  color: #000;
+  background: #ff2b43;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+
+.featured-movies .btn-default a:hover {
+  color: #000;
+  background: #ff2b43;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* FEATURED MOVIES */
 /* SHOP MOVIE */
 
+.shop-movie .wrapperShop1,
+.shop-movie .wrapperShop2{
+  font-size: 12px;
+}
+
+.shop-movie .prix,
+.shop-movie .card-body .prix{
+  color: #ff2b43;
+  font-weight: bold;
+}
 
 .shop-movie .card {
   margin: 0.2em;
@@ -498,8 +559,15 @@ body {
 .shop-movie .card-img-top {
   height: 12.5em;
 }
-.shop-movie .card-body {
-  background: rgb(220, 220, 220);
+
+.shop-movie .card-body,
+.shop-movie .card-embed {
+  background: #000;
+}
+
+.shop-movie .card-body h5,
+.shop-movie .card-body p {
+  color: #fff;
 }
 
 .shop-movie .card-title {
@@ -516,11 +584,6 @@ body {
 
 .shop-movie small {
   color: #000 !important;
-}
-
-.shop-movie .colorPrice {
-  color: rgb(255, 43, 67);
-  font-weight: bold;
 }
 
 /* SHOP MOVIE */

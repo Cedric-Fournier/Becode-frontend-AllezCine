@@ -57,7 +57,7 @@
 		"url": "./Assets/images/comedie/intouchables-2011-comedie.jpg",
 		"name": "Intouchables",
 		"date": "2011",
-		"genre": "Comédie Dramatique",
+		"genre": "Comédie",
 		"trailer": "https://www.youtube.com/embed/cXu2MhWYUuE",
 		"storyline": "A la suite d'un accident de parapente, Philippe, riche aristocrate, engage comme aide à domicile Driss, un jeune de banlieue tout juste sorti de prison. Bref la personne la moins adaptée pour le job. Ensemble ils vont faire cohabiter Vivaldi et Earth Wind and Fire, le verbe et la vanne, les costumes et les bas de survètement... Deux univers vont se télescoper, s'apprivoiser, pour donner naissance à une amitié aussi dingue, drôle et forte qu'inattendue, une relation unique qui fera des étincelles et qui les rendra... Intouchables.",
 		"price": "8€"
@@ -66,7 +66,7 @@
 		"url": "./Assets/images/comedie/jumanji-2018-comedie.jpg",
 		"name": "Jumanji : Bienvenue dans la jungle",
 		"date": "2018",
-		"genre": "Aventure",
+		"genre": "Comédie",
 		"trailer": "https://www.youtube.com/embed/1iyVQy2Z_KM",
 		"storyline": "Le destin de quatre lycéens en retenue bascule lorsqu'ils sont aspirés dans le monde de Jumanji. Après avoir découvert une vieille console contenant un jeu vidéo dont ils n'avaient jamais entendu parler, les quatre jeunes se retrouvent mystérieusement propulsés au coeur de la jungle de Jumanji, dans le corps de leurs avatars. Ils vont rapidement découvrir que l'on ne joue pas à Jumanji, c'est le jeu qui joue avec vous... Pour revenir dans le monde réel, il va leur falloir affronter les pires dangers et triompher de l'ultime aventure. Sinon, ils resteront à jamais prisonniers de Jumanji...",
 		"price": "17€"

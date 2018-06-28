@@ -1,0 +1,65 @@
+[
+  {
+		"url": "./Assets/images/action/avengersinfinitywar-2018-action.jpg",
+		"name": "Avengers Infinity War",
+		"date": "2018",
+		"genre": "Action",
+		"trailer": "https://www.youtube.com/embed/QwievZ1Tx-8?rel=0",
+		"storyline": "Les Avengers et leurs alliés devront ètre prèts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l'univers.",
+		"price": "16€"
+	},
+  {
+    "url": "./Assets/images/action/deadpool-2016-action.jpg",
+    "name": "Deadpool",
+    "date": "2016",
+    "genre": "Action",
+    "trailer": "https://www.youtube.com/embed/vq_2lquOPt8",
+    "storyline": "Wade Wilson, un ancien militaire des forces spéciales, est devenu mercenaire. Après avoir subi une expérimentation hors-norme qui va accélérer ses pouvoirs de guérison, il va devenir Deadpool. Armé de ses nouvelles capacités et d'un humour noir survolté, il va traquer l'homme qui a bien failli anéantir sa vie.",
+    "price": "10€"
+  },
+  {
+    "url": "./Assets/images/action/deadpool2-2018-action.jpg",
+    "name": "Deadpool 2",
+    "date": "2018",
+    "genre": "Action",
+    "trailer": "https://www.youtube.com/embed/38Zu8GPOhhU",
+    "storyline": "L’insolent mercenaire de Marvel remet le masque ! Plus grand, plus-mieux, et occasionnellement les fesses à l’air, il devra affronter un Super-Soldat dressé pour tuer, repenser l’amitié, la famille, et ce que signifie l’héroïsme – tout en bottant cinquante nuances de culs, car comme chacun sait, pour faire le Bien, il faut parfois se salir les doigts.",
+    "price": "16€"
+  },
+  {
+    "url": "./Assets/images/action/gijoe.jpg",
+    "name": "G.I. Joe : Le Réveil du Cobra",
+    "date": "2009",
+    "genre": "Action",
+    "trailer": "https://www.youtube.com/embed/1IPO0KutNPc",
+    "storyline": "Des soldats transportant une arme révolutionnaire sont attaqués par un groupe armé. L'intervention d'une unité de G.I. Joe permet de mettre les agresseurs en fuite et d'empêcher qu'ils s'emparent de l'arme, mais le bilan est lourd : seuls deux soldats, Ripcord et Duke, ont survécu. Ils sont amenés à la base des G.I. Joe, que dirige le général Hawk. Après un entraînement poussé, Ripcord et Duke von.",
+    "price": "10€"
+  },
+  {
+    "url": "./Assets/images/action/jurassicworld2-2018-action.jpg",
+    "name": "Jurassic World 2",
+    "date": "2018",
+    "genre": "Action",
+    "trailer": "https://www.youtube.com/embed/4-kBkhp2D-g",
+    "storyline": "Cela fait maintenant trois ans que les dinosaures se sont échappés de leurs enclos et ont détruit le parc à thème et complexe de luxe Jurassic World. Isla Nublar a été abandonnée par les humains alors que les dinosaures survivants sont livrés à eux-mêmes dans la jungle. Lorsque le volcan inactif de l'île commence à rugir, Owen et Claire s’organisent pour sauver les dinosaures restants de l’extinction.  Owen se fait un devoir de retrouver Blue, son principal raptor qui a disparu dans la nature, alors que Claire, qui a maintenant un véritable respect pour ces créatures, s’en fait une mission. Arrivant sur l'île instable alors que la lave commence à pleuvoir, leur expédition découvre une conspiration qui pourrait ramener toute notre planète à un ordre périlleux jamais vu depuis la préhistoire.",
+    "price": "16€"
+  },
+  {
+    "url": "./Assets/images/action/mazerunner3-2018-action.jpeg",
+    "name": "Le Labyrinthe : Le remède mortel",
+    "date": "2018",
+    "genre": "Action",
+    "trailer": "https://www.youtube.com/embed/HuXEKU0PTzw",
+    "storyline": "Dans ce dernier volet de l’épopée LE LABYRINTHE, Thomas et les Blocards s’engagent dans une ultime mission, plus dangereuse que jamais. Afin de sauver leurs amis, ils devront pénétrer dans la légendaire et sinueuse Dernière Ville contrôlée par la terrible organisation WICKED. Une cité qui pourrait s’avérer être le plus redoutable des labyrinthes. Seuls les Blocards qui parviendront à en sortir vivants auront une chance d’obtenir les réponses tant recherchées depuis leur réveil au cœur du Labyrinthe.",
+    "price": "16€"
+  },
+  {
+    "url": "./Assets/images/action/TombRaider-2018-action.jpg",
+    "name": "Tomb Raider 2018",
+    "date": "2018",
+    "genre": "Action",
+    "trailer": "https://www.youtube.com/embed/70NUW9KSVKM",
+    "storyline": "Lara Croft, 21 ans, n'a ni projet, ni ambition : fille d'un explorateur excentrique porté disparu depuis sept ans, cette jeune femme rebelle et indépendante refuse de reprendre l'empire de son père. Convaincue qu'il n'est pas mort, elle met le cap sur la destination où son père a été vu pour la dernière fois : la tombe légendaire d'une île mythique au large du Japon. Mais le voyage se révèle des plus périlleux et il lui faudra affronter d'innombrables ennemis et repousser ses propres limites pour devenir 'Tomb Raider'…",
+    "price": "16€"
+  }
+]
