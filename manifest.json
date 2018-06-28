@@ -1,0 +1,22 @@
+{
+  "short_name": "AllezCiné!",
+  "name": "AllezCiné!",
+  "icons":
+  [
+    {
+      "src": "./Assets/images/allezcine-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./Assets/images/allezcine-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/frontend-AllezCine/index.html",
+  "display": "fullscreen",
+  "background_color": "#FFF",
+  "scope": "/frontend-AllezCine/",
+  "theme_color": "#FFF"
+}
