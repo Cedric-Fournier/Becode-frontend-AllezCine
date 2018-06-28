@@ -1,0 +1,47 @@
+[
+  {
+		"url": "./Assets/images/scifi/inception-2010-scifi.jpg",
+		"name": "Inception",
+		"date": "2010",
+		"genre": "Science-Fiction",
+		"trailer": "https://www.youtube.com/embed/B4nIVh1yvvc",
+		"storyline": "Dom Cobb est un voleur expérimenté - le meilleur qui soit dans l'art périlleux de l'extraction : sa spécialité consiste à s'approprier les secrets les plus précieux d'un individu, enfouis au plus profond de son subconscient, pendant qu'il rève et que son esprit est particulièrement vulnérable. Très recherché pour ses talents dans l'univers trouble de l'espionnage industriel, Cobb est aussi devenu un fugitif traqué dans le monde entier qui a perdu tout ce qui lui est cher. Mais une ultime mission pourrait lui permettre de retrouver sa vie d'avant - à condition qu'il puisse accomplir l'impossible : l'inception. Au lieu de subtiliser un rève, Cobb et son équipe doivent faire l'inverse : implanter une idée dans l'esprit d'un individu. S'ils y parviennent, il pourrait s'agir du crime parfait. Et pourtant, aussi méthodiques et doués soient-ils, rien n'aurait pu préparer Cobb et ses partenaires à un ennemi redoutable qui semble avoir systématiquement un coup d'avance sur eux. Un ennemi dont seul Cobb aurait pu soupà§onner l'existence.",
+		"price": "8€"
+	},
+  {
+    "url": "./Assets/images/action/avengersinfinitywar-2018-action.jpg",
+    "name": "Matrix",
+    "date": "1999",
+    "genre": "Action",
+    "trailer": "https://www.youtube.com/embed/8xx91zoASLY",
+    "storyline": "Programmeur anonyme dans un service administratif le jour, Thomas Anderson devient Neo la nuit venue. Sous ce pseudonyme, il est l'un des pirates les plus recherchés du cyber-espace. A cheval entre deux mondes, Neo est assailli par d'étranges songes et des messages cryptés provenant d'un certain Morpheus. Celui-ci l'exhorte à aller au-delà des apparences et à trouver la réponse à la question qui hante constamment ses pensées : qu'est-ce que la Matrice ? Nul ne le sait, et aucun homme n'est encore parvenu à en percer les defenses. Mais Morpheus est persuadé que Neo est l'Elu, le libérateur mythique de l'humanité annoncé selon la prophétie. Ensemble, ils se lancent dans une lutte sans retour contre la Matrice et ses terribles agents...",
+    "price": "8€"
+  },
+  {
+		"url": "./Assets/images/scifi/pacificrimuprising-2018-scifi.jpg",
+		"name": "Pacific Rim Uprising",
+		"date": "2018",
+		"genre": "Science-Fiction",
+		"trailer": "https://www.youtube.com/embed/ItD0FNYiX-Q",
+		"storyline": "Le conflit planétaire qui oppose les Kaiju, créatures extraterrestres, aux Jaegers, robots géants pilotés par des humains, n'était que la première vague d'une attaque massive contre l'Humanité.Jake Pentecost, un jeune pilote de Jaeger prometteur dont le célèbre père a sacrifié sa vie pour sauver l'Humanité des monstrueux Kaiju a depuis abandonné son entraà®nement et s'est retrouvé pris dans l'engrenage du milieu criminel.Mais lorsqu'une menace, encore plus irrésistible que la précédente, se répand dans les villes et met le monde à feu et à sang, Jake obtient une dernière chance de perpétuer la légende de son père aux côtés de sa soeur, Mako Mori - qui guide une courageuse génération de pilotes ayant grandi dans l'ombre de la guerre. Alors qu'ils sont en quète de justice pour leurs camarades tombés au combat, leur unique espoir est de s'allier dans un soulèvement général contre la menace des Kaiju. Jake est rejoint par son rival, le talentueux pilote Lambert et par Amara, une hackeuse de Jaeger à¢gée de 15 ans, les héros du Corps de Défense du Pan Pacific devenant la seule famille qui lui reste.S'alliant pour devenir la plus grande force de défense que la Terre n'ait jamais connue, ils vont paver un chemin vers une extraordinaire nouvelle aventure.",
+		"price": "16€"
+	},
+  {
+		"url": "./Assets/images/scifi/starwarsempire-1980-scifi.jpg",
+		"name": "Star Wars, épisode V : L'Empire contre-attaque",
+		"date": "1980",
+		"genre": "Science-Fiction",
+		"trailer": "https://www.youtube.com/embed/Z7B0vfamFTE",
+		"storyline": "Malgré la destruction de l'Etoile Noire, l'Empire maintient son emprise sur la galaxie, et poursuit sans relà¢che sa lutte contre l'Alliance rebelle. Basés sur la planète glacée de Hoth, les rebelles essuient un assaut des troupes impériales. Parvenus à s'échapper, la princesse Leia, Han Solo, Chewbacca et C-3P0 se dirigent vers Bespin, la cité des nuages gouvernée par Lando Calrissian, ancien compagnon de Han. Suivant les instructions d'Obi-Wan Kenobi, Luke Skywalker se rend quant à lui vers le système de Dagobah, planète marécageuse oà¹ il doit recevoir l'enseignement du dernier maà®tre Jedi, Yoda. Apprenant l'arrestation de ses compagnons par les stormtroopers de Dark Vador après la trahison de Lando, Luke décide d'interrompre son entraà®nement pour porter secours à ses amis et affronter le sombre seigneur Sith...",
+		"price": "5€"
+	},
+	{
+		"url": "./Assets/images/scifi/starwarsthelastjedi-2018-scifi.jpeg",
+		"name": "Star Wars 8 : Les Derniers Jedi",
+		"date": "2017",
+		"genre": "Science-Fiction",
+		"trailer": "https://www.youtube.com/embed/wY708Ky2SG8",
+		"storyline": "Les héros du Réveil de la force rejoignent les figures légendaires de la galaxie dans une aventure épique qui révèle des secrets ancestraux sur la Force et entraà®ne de surprenantes révélations sur le passé...",
+		"price": "18€"
+	}
+]
