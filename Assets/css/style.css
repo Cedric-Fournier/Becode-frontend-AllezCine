@@ -717,3 +717,31 @@ iframe {
 }
 
 /* FOOTER */
+/*** Feat Movies ***/
+.fm{
+    padding-left: 5px;
+    padding-top: 5px;
+    border-left-color: red;
+    border-left-style: solid;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#a1 {
+    margin-top: 10px;
+}
+
+.bout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cachee {
+    display:none;
+}
+
+/*** Feat Movies ***/
