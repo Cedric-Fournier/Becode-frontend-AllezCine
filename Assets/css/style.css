@@ -538,6 +538,10 @@ body {
   text-decoration: none;
 }
 
+.featured-movies .card-img-top {
+  height: 12.5em;
+}
+
 /* FEATURED MOVIES */
 /* SHOP MOVIE */
 

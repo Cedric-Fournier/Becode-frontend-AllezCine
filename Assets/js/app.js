@@ -5,9 +5,6 @@ if ('serviceWorker' in navigator) {
  .then(function() { console.log('Service Worker Registered'); });
 }
 // Sercive Worker //
-// TEST //
-document.addEventListener('touchstart', onTouchStart, {passive: true});
-// TEST //
 // LOGIN - REGISTER //
 
 let loginRegister = () => {
