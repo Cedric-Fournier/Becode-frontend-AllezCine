@@ -32,17 +32,17 @@ let ageVerif = () => {
   let age = prompt("Please enter your age !");
   age = parseInt(age);
 
-  while(isNaN(age) || age < 18) {
-
-      if(isNaN(age)){
-          age = prompt("Please enter your age !");
-      }
-
-      else if(age < 18){
-          window.location.href = "https://www.imdb.com";
-          break;
-      }
-  }
+  // while(isNaN(age) || age < 18) {
+  //
+  //     if(isNaN(age)){
+  //         age = prompt("Please enter your age !");
+  //     }
+  //
+  //     else if(age < 18){
+  //         window.location.href = "https://www.imdb.com";
+  //         break;
+  //     }
+  // }
 }
 
 // AGE VERIFICATION //
@@ -219,9 +219,10 @@ let buttonUp = () =>{
 // BUTTON UP
 // LAUNCHER //
 
+ageVerif();
+
 $(document).ready(function(){
-  loginRegister();
-  ageVerif();
+  loginRegister();  
   buttonUp();
   allMovies();
   $("#actionButton").click(function(){
