@@ -221,7 +221,6 @@ let buttonUp = () =>{
 
 $(document).ready(function(){
   loginRegister();
-  GoogleMap();
   ageVerif();
   buttonUp();
   allMovies();
