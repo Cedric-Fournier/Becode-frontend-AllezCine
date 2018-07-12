@@ -222,8 +222,8 @@ let buttonUp = () =>{
 $(document).ready(function(){
   loginRegister();
   GoogleMap();
-  //ageVerif();
-  // buttonUp();
+  ageVerif();
+  buttonUp();
   allMovies();
   $("#actionButton").click(function(){
     moviesSelect("./Assets/bibliotheque/JSON/action.json");
