@@ -220,7 +220,7 @@ let buttonUp = () =>{
 // LAUNCHER //
 
 $(document).ready(function(){
-  ageVerif();
+  // ageVerif();
   loginRegister();
   buttonUp();
   allMovies();
