@@ -1,564 +1,590 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Travail d'équipe sur un projet fictif, AllezCiné fait en Bootstrap, JS, JQuery, CSS et réalisé pendant notre Formation BeCode">
-    <meta name="author" content="Cedric Fournier and Jean-François Geerinckx">
-    <meta name="theme-color" content="#FFFFFF"/>
-    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.min.css">
-    <link rel="manifest" href="./manifest.json">
-    <title>AllezCiné</title>
-  </head>
-  <body>
 
-    <!-- HEADER -->
-      <!-- MENU -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Travail d'équipe sur un projet fictif, AllezCiné fait en Bootstrap, JS, JQuery, CSS et réalisé pendant notre Formation BeCode">
+  <meta name="author" content="Cedric Fournier and Jean-François Geerinckx">
+  <meta name="theme-color" content="#FFFFFF" />
+  <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/style.min.css">
+  <link rel="manifest" href="./manifest.json">
+  <title>AllezCiné</title>
+</head>
 
-      <section class="menu" id="top">
+<body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-default">
-          <a class="navbar-brand styleAllocine" href="#">ALLEZ<span class="styleCine">CINE!</span></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-align-justify"></i>
-          </button>
+  <!-- HEADER -->
+  <!-- MENU -->
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown bg-menu">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Films
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#listM">Action</a>
-                  <a class="dropdown-item" href="#listM">Comedie</a>
-                  <a class="dropdown-item" href="#listM">Western</a>
-                  <a class="dropdown-item" href="#listM">Fiction</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown bg-menu">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Featured Movies
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                  <a class="dropdown-item" href="#featuredM">Action</a>
-                  <a class="dropdown-item" href="#featuredM">Comedie</a>
-                  <a class="dropdown-item" href="#featuredM">Western</a>
-                  <a class="dropdown-item" href="#featuredM">Fiction</a>
-                </div>
-              </li>
-              <li class="nav-item bg-menu">
-                <a class="nav-link" href="#shopM">Shop Movie </a>
-              </li>
-              <li class="nav-item bg-menu">
-                <a class="nav-link" href="#contactUs">Contact Us </a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-default my-2 my-sm-0" type="submit">Search</button>
+  <section class="menu" id="top">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-default">
+      <a class="navbar-brand styleAllocine" href="#">ALLEZ<span class="styleCine">CINE!</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-align-justify"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown bg-menu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Films
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#listM">Action</a>
+              <a class="dropdown-item" href="#listM">Comedie</a>
+              <a class="dropdown-item" href="#listM">Western</a>
+              <a class="dropdown-item" href="#listM">Fiction</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown bg-menu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Featured Movies
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="#featuredM">Action</a>
+              <a class="dropdown-item" href="#featuredM">Comedie</a>
+              <a class="dropdown-item" href="#featuredM">Western</a>
+              <a class="dropdown-item" href="#featuredM">Fiction</a>
+            </div>
+          </li>
+          <li class="nav-item bg-menu">
+            <a class="nav-link" href="#shopM">Shop Movie </a>
+          </li>
+          <li class="nav-item bg-menu">
+            <a class="nav-link" href="#contactUs">Contact Us </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-default my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+  </section>
+
+  <!-- MENU -->
+  <!-- JUMBOTRON -->
+
+  <section class="slide">
+
+    <div class="carousel col-sm-12">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./assets/images/exorcism.jpg" alt="Exorcim Unrated">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Exorcism of Molly Hartley UNRATED</h5>
+              <p>LATEST <strong>ON</strong>LINE <strong>MO</strong>VIES</p>
+              <button type="button" class="btn btn-default">WATCH TRAILER</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/deadpool2.jpg" alt="Deadpool 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Deadpool 2</h5>
+              <p>LATEST <strong>ON</strong>LINE <strong>MO</strong>VIES</p>
+              <button type="button" class="btn btn-default">WATCH TRAILER</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/murder-on-the-orient-express.jpg" alt="Murder of the Orient Express">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Murder on the Orient Express</h5>
+              <p>LATEST <strong>ON</strong>LINE <strong>MO</strong>VIES</p>
+              <button type="button" class="btn btn-default">WATCH TRAILER</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/images/mazerunner3.jpg" alt="Maze Runner 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Maze Runner: The Dead Cure</h5>
+              <p>LATEST <strong>ON</strong>LINE <strong>MO</strong>VIES</p>
+              <button type="button" class="btn btn-default">WATCH TRAILER</button>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- JUMBOTRON -->
+
+  <!-- LOGIN/REGISTER -->
+
+  <section class="login-register">
+
+    <div class="nav-sign">
+      <ul>
+        <li class="telephon fas fa-phone-square"> Phone : 02/000-00-00</li>
+        <li>&nbsp;</li>
+        <li><button type="button" class="btn btn-default btn-lg" id="mySignIn">Login</button></li>
+        <li><button type="button" class="btn btn-default btn-lg" id="mySignUp">Register</button></li>
+      </ul>
+    </div>
+
+    <div class="modal fade" id="myModalSignIn" role="dialog">
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header" style="padding:35px 50px;">
+            <h4><span class="fas fa-lock"></span> Login</h4>
+          </div>
+          <div class="modal-body" style="padding:40px 50px;">
+            <form>
+              <div class="form-group">
+                <label for="usrname2"><span class="fas fa-user"></span> Identifiant</label>
+                <input type="text" class="form-control" id="usrname2" placeholder="Entrer votre identifiant">
+              </div>
+              <div class="form-group">
+                <label for="psw3"><span class="far fa-eye"></span> Mot de passe</label>
+                <input type="password" class="form-control" id="psw3" placeholder="Entrer votre mot de passe">
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="" checked>Rester connecté</label>
+              </div>
+              <button type="submit" class="btn btn-warning btn-block"><span class="fas fa-power-off"></span> Login</button>
             </form>
           </div>
-        </nav>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="fas fa-times"></span>
+              Annuler</button>
+            <div class="modal-footer-info">
+              <p>Pas membre ? <button type="button" class="btn btn-default btn-lg" id="mySignInRegister">Register</button></p>
+              <p>Vous avez <a href="#test">oublié votre mot de passe ?</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="modal fade" id="myModalSignUp" role="dialog">
+      <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header" style="padding:35px 50px;">
+            <h4><span class="fas fa-lock"></span> Register</h4>
+          </div>
+          <div class="modal-body" style="padding:40px 50px;">
+            <form>
+              <div class="form-group">
+                <label for="usrname"><span class="fas fa-user"></span> Identifiant</label>
+                <input type="text" class="form-control" id="usrname" placeholder="Entrer votre identifiant">
+              </div>
+              <div class="form-group">
+                <label for="mail"><span class="fas fa-envelope"></span> Email</label>
+                <input type="email" class="form-control" id="mail" placeholder="Entrer votre email">
+              </div>
+              <div class="form-group">
+                <label for="psw"><span class="far fa-eye"></span> Mot de passe</label>
+                <input type="password" class="form-control" id="psw" placeholder="Entrer votre mot de passe">
+              </div>
+              <div class="form-group">
+                <label for="psw2"><span class="far fa-eye"></span> Confirmation Mot de passe</label>
+                <input type="password" class="form-control" id="psw2" placeholder="Entrer a nouveau votre mot de passe">
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value=""> Conditions générales d'utilisation</label>
+              </div>
+              <button type="submit" class="btn btn-warning btn-block"><span class="fas fa-power-off"></span> Register</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger btn-default" data-dismiss="modal"><span class="fas fa-times"></span>
+              Annuler</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- LOGIN/REGISTER -->
+
+  <!-- SOCIALS -->
+
+  <section class="reseaux-sociaux">
+
+    <div>
+      <button class="parent" id="twitter" name="Twitter" name="button">
+        <span><a href="https://twitter.com/" target="_blank" rel="noreferrer">Twitter</a></span>
+        <i class="fab fa-twitter fa-lg links" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div>
+      <button class="parent" id="facebook" name="button">
+        <span><a href="https://fr-fr.facebook.com/" target="_blank" rel="noreferrer">Facebook</a></span>
+        <i class="fab fa-facebook fa-lg links" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div>
+      <button class="parent" id="dribble" name="button">
+        <span><a href="https://dribbble.com/" target="_blank" rel="noreferrer">Dribble</a></span>
+        <i class="fab fa-dribbble fa-lg links" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div>
+      <button class="parent" id="googlep" name="button">
+        <span><a href="https://plus.google.com/" target="_blank" rel="noreferrer">Google Plus</a></span>
+        <i class="fab fa-google fa-lg links" aria-hidden="true"></i>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- SOCIALS -->
+  <!-- HEADER -->
+
+  <div class="container-fluid">
+
+    <!-- MAIN -->
+
+    <section class="main">
+
+      <!-- MAIN / SECTION MOVIES -->
+
+      <section class="movies" id="listM">
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col- col-sm col-md col-lg">
+
+              <a href="#" class="launch-modal" data-modal-id="modal-video">
+                <img class="img-fluid" src="./assets/images/aventure/lesdeuxtours-2002-aventure.jpg" alt="film">
+              </a>
+              <div class="titre">Les deux tours</div>
+              <div class="date">
+                <p>2002</p>
+                <p>Aventure</p>
+              </div>
+
+            </div>
+
+            <div class="col- col-sm col-md col-lg">
+
+              <a href="#" class="launch-modal" data-modal-id="modal-video1">
+                <img class="img-fluid" src="./assets/images/comedie/zoolander-2001-comedie.jpg" alt="film">
+              </a>
+              <div class="titre">Zoolander</div>
+              <div class="date">
+                <p>2001</p>
+                <p>Comédie</p>
+              </div>
+
+            </div>
+
+            <div class="col- col-sm col-md col-lg">
+
+              <a href="#" class="launch-modal" data-modal-id="modal-video">
+                <img class="img-fluid" src="./assets/images/thriller/shutterisland-2010-thriller.jpg" alt="film">
+              </a>
+              <div class="titre">Shutter Island</div>
+              <div class="date">
+                <p>2010</p>
+                <p>Thriller</p>
+              </div>
+
+            </div>
+
+            <div class="col- col-sm col-md col-lg">
+              <a href="#" class="launch-modal" data-modal-id="modal-video">
+                <img class="img-fluid" src="./assets/images/dramatique/lepatientanglais-1996-dramatique.jpg" alt="film">
+              </a>
+              <div class="titre">Le patient anglais</div>
+              <div class="date">
+                <p>1996</p>
+                <p>Drame</p>
+              </div>
+
+            </div>
+
+            <div class="col- col-sm col-md col-lg">
+              <a href="#" class="launch-modal" data-modal-id="modal-video">
+                <img class="img-fluid" src="./assets/images/comedie/intouchables-2011-comedie.jpg" alt="film">
+              </a>
+              <div class="titre">Intouchables</div>
+              <div class="date">
+                <p>2011</p>
+                <p>Comédie</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- MODAL MOVIES -->
+
+        <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="modal-video">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe title="Youtube Video" src="https://player.vimeo.com/video/257450749?title=0&byline=0&portrait=0"
+                      frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <script src="https://player.vimeo.com/api/player.js"></script>
+                  <h6 class="tit">Les deux tours</h6>
+                  <p class="para">Après la mort de Boromir et la disparition de Gandalf, la `Communauté' s'est scindée
+                    en trois.<br /> Perdus dans les collines d'`Emyn Muil', Frodon et Sam découvrent qu'ils sont suivis
+                    par Gollum, une créature versatile corrompue par l'anneau magique.<br /> Gollum promet de conduire
+                    les `Hobbits' jusqu'à la `Porte Noire' du `Mordor'.<br /> A travers la `Terre du Milieu', Aragorn,
+                    Legolas et Gimli font route vers le `Rohan', le royaume assiégé de Theoden.</p>
+                  <h6>Réalisateur :</h6>
+                  <p class="para">Peter Jackson</p>
+                  <h6>Acteurs principaux :</h6>
+                  <p class="para">Elijah Wood, Sean Astin, Viggo Mortensen, Ian McKellen, Andy Serkis</p>
+                  <div class="date">
+                    <h6>20O2</h6>
+                    <h6>Aventure</h6>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modal-video1" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+
+
+          <!-- MODAL -->
+          <!-- MODAL -->
+          <div class="modal fade" id="modal-video2" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-video">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe title="Youtube Video" src="https://player.vimeo.com/video/158227872?title=0&byline=0&portrait=0"
+                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                    <h6 class="tit">ZOOLANDER</h6>
+                    <p class="para">Après la mort de Boromir et la disparition de Gandalf, la `Communauté' s'est
+                      scindée en trois.<br /> Perdus dans les collines d'`Emyn Muil', Frodon et Sam découvrent qu'ils
+                      sont suivis par Gollum, une créature versatile corrompue par l'anneau magique.<br /> Gollum
+                      promet de conduire les `Hobbits' jusqu'à la `Porte Noire' du `Mordor'.<br /> A travers la `Terre
+                      du Milieu', Aragorn, Legolas et Gimli font route vers le `Rohan', le royaume assiégé de Theoden.</p>
+                    <h6>Réalisateur :</h6>
+                    <p class="para">Peter Jackson</p>
+                    <h6>Acteurs principaux :</h6>
+                    <p class="para">Elijah Wood, Sean Astin, Viggo Mortensen, Ian McKellen, Andy Serkis</p>
+                    <div class="date">
+                      <h6>20O2</h6>
+                      <h6>Aventure</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- MODAL MOVIES -->
+
+        </div>
+
+        <!-- MODAL -->
+
+
 
       </section>
 
-      <!-- MENU -->
-      <!-- JUMBOTRON -->
+      <!-- MAIN / SECTION MOVIES -->
+      <!-- MAIN / SECTION FEATURED MOVIES -->
 
-        <section class="slide">
+      <section class="featured-movies" id="featuredM">
 
-          <div class="carousel col-sm-12">
+        <div class="row">
+          <div class="col- col-sm col-md col-lg">
+            <h5 class="fm">FEATURED MOVIES</h5>
+          </div>
+        </div>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-              </ol>
+        <div class="row">
 
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" src="./assets/images/exorcism.jpg" alt="Exorcim Unrated">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Exorcism of Molly Hartley UNRATED</h5>
-                    <p>LATEST <strong>ON</strong>LINE <strong>MO</strong>VIES</p>
-                    <button type="button" class="btn btn-default">WATCH TRAILER</button>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/images/deadpool2.jpg" alt="Deadpool 2">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Deadpool 2</h5>
-                    <p>LATEST <strong>ON</strong>LINE <strong>MO</strong>VIES</p>
-                    <button type="button" class="btn btn-default">WATCH TRAILER</button>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/images/murder-on-the-orient-express.jpg" alt="Murder of the Orient Express">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Murder on the Orient Express</h5>
-                    <p>LATEST <strong>ON</strong>LINE <strong>MO</strong>VIES</p>
-                    <button type="button" class="btn btn-default">WATCH TRAILER</button>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="./assets/images/mazerunner3.jpg" alt="Maze Runner 3">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Maze Runner: The Dead Cure</h5>
-                    <p>LATEST <strong>ON</strong>LINE <strong>MO</strong>VIES</p>
-                    <button type="button" class="btn btn-default">WATCH TRAILER</button>
-                  </div>
-                </div>
+          <div class="container">
+
+            <div class="btn-group" role="group">
+              <button type="button" autofocus name="button" class="btn btn-default rounded-0 pt-0 pb-0" id="allButton">All</button>
+              <button type="button" name="button" class="btn btn-default rounded-0 pt-0 pb-0" id="actionButton">Action</button>
+              <button type="button" name="button" class="btn btn-default rounded-0 pt-0 pb-0" id="comedieButton">Comédie</button>
+              <button type="button" name="button" class="btn btn-default rounded-0 pt-0 pb-0" id="scifiButton">Science
+                Fiction</button>
+            </div>
+            <div class="movies1">
+              <div class="row wrapperJson">
+
               </div>
+              <div class="row wrapperJson2">
 
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+              </div>
+              <div class="row wrapperJson3 hiddenRow">
+
+              </div>
+            </div>
+
+            <div class="showbut">
+              <div id="theshowmust" class="btn rounded-0">
+                <span class="showmore btn btn-default">More movies</span>
+                <span class="showless btn btn-default">
+                  <a href="#featuredMovies">Less movies</a>
+                </span>
+              </div>
             </div>
 
           </div>
 
-        </section>
+        </div>
 
-      <!-- JUMBOTRON -->
+      </section>
 
-      <!-- LOGIN/REGISTER -->
+      <!-- MAIN / SECTION FEATURED MOVIES -->
+      <!-- MAIN / SECTION SHOP MOVIE -->
 
-        <section class="login-register">
+      <section class="shop-movie" id="shopM">
 
-          <div class="nav-sign">
-            <ul>
-              <li class="telephon fas fa-phone-square"> Phone : 02/000-00-00</li>
-              <li>&nbsp;</li>
-              <li><button type="button" class="btn btn-default btn-lg" id="mySignIn">Login</button></li>
-              <li><button type="button" class="btn btn-default btn-lg" id="mySignUp">Register</button></li>
-            </ul>
-          </div>
+        <h2 class="title">SHOP MOVIE</h2>
 
-          <div class="modal fade" id="myModalSignIn" role="dialog">
-            <div class="modal-dialog">
+        <button id="shopBack" type="button" name="button" disabled>back</button>
+        <button id="shopForward" type="button" name="button">forward</button>
 
-              <div class="modal-content">
-                <div class="modal-header" style="padding:35px 50px;">
-                  <h4><span class="fas fa-lock"></span> Login</h4>
-                </div>
-                <div class="modal-body" style="padding:40px 50px;">
-                  <form>
-                    <div class="form-group">
-                      <label for="usrname2"><span class="fas fa-user"></span> Identifiant</label>
-                      <input type="text" class="form-control" id="usrname2" placeholder="Entrer votre identifiant">
-                    </div>
-                    <div class="form-group">
-                      <label for="psw3"><span class="far fa-eye"></span> Mot de passe</label>
-                      <input type="password" class="form-control" id="psw3" placeholder="Entrer votre mot de passe">
-                    </div>
-                    <div class="checkbox">
-                      <label><input type="checkbox" value="" checked>Rester connecté</label>
-                    </div>
-                      <button type="submit" class="btn btn-warning btn-block"><span class="fas fa-power-off"></span> Login</button>
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="fas fa-times"></span> Annuler</button>
-                  <div class="modal-footer-info">
-                    <p>Pas membre ? <button type="button" class="btn btn-default btn-lg" id="mySignInRegister">Register</button></p>
-                    <p>Vous avez <a href="#test">oublié votre mot de passe ?</a></p>
-                  </div>
-                  </div>
-              </div>
+
+        <div class="row">
+
+          <div class="col-12 col-sm-12 col-md-7 col-lg-7">
+
+            <div class="card-deck wrapperShop1">
 
             </div>
-          </div>
 
-          <div class="modal fade" id="myModalSignUp" role="dialog">
-            <div class="modal-dialog">
-
-              <div class="modal-content">
-                <div class="modal-header" style="padding:35px 50px;">
-                  <h4><span class="fas fa-lock"></span> Register</h4>
-                </div>
-                <div class="modal-body" style="padding:40px 50px;">
-                  <form>
-                    <div class="form-group">
-                      <label for="usrname"><span class="fas fa-user"></span> Identifiant</label>
-                      <input type="text" class="form-control" id="usrname" placeholder="Entrer votre identifiant">
-                    </div>
-                    <div class="form-group">
-                      <label for="mail"><span class="fas fa-envelope"></span> Email</label>
-                      <input type="email" class="form-control" id="mail" placeholder="Entrer votre email">
-                    </div>
-                    <div class="form-group">
-                      <label for="psw"><span class="far fa-eye"></span> Mot de passe</label>
-                      <input type="password" class="form-control" id="psw" placeholder="Entrer votre mot de passe">
-                    </div>
-                    <div class="form-group">
-                      <label for="psw2"><span class="far fa-eye"></span> Confirmation Mot de passe</label>
-                      <input type="password" class="form-control" id="psw2" placeholder="Entrer a nouveau votre mot de passe">
-                    </div>
-                    <div class="checkbox">
-                      <label><input type="checkbox" value=""> Conditions générales d'utilisation</label>
-                    </div>
-                      <button type="submit" class="btn btn-warning btn-block"><span class="fas fa-power-off"></span> Register</button>
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button type="submit" class="btn btn-danger btn-default" data-dismiss="modal"><span class="fas fa-times"></span> Annuler</button>
-                </div>
-              </div>
+            <div class="card-deck wrapperShop2">
 
             </div>
+
+          </div>
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5">
+
+            <div class="card mb-3 card-embed">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="embed1" class="embed-item-responsive" title="Youtube Video" src="https://www.youtube.com/embed/QwievZ1Tx-8"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="card-body">
+                <h5 id="embed2" class="card-title">Avengers: Infinity War</h5>
+                <p id="embed3" class="card-text">Les Avengers et leurs alliés devront ètre prèts à tout sacrifier pour
+                  neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète
+                  de l'univers.</p>
+                <p id="embed4" class="card-text">2018</p>
+                <p id="embed5" class="card-text">Action</p>
+                <p id="embed6" class="card-text prix">16 €</p>
+              </div>
+            </div>
+
           </div>
 
-        </section>
-
-      <!-- LOGIN/REGISTER -->
-
-      <!-- SOCIALS -->
-
-        <section class="reseaux-sociaux">
-
-          <div>
-            <button class="parent" id="twitter" name="Twitter" name="button">
-              <span><a href="https://twitter.com/" target="_blank" rel="noreferrer">Twitter</a></span>
-              <i class="fab fa-twitter fa-lg links" aria-hidden="true"></i>
-            </button>
-          </div>
-          <div>
-            <button class="parent" id="facebook" name="button">
-              <span><a href="https://fr-fr.facebook.com/" target="_blank" rel="noreferrer">Facebook</a></span>
-              <i class="fab fa-facebook fa-lg links" aria-hidden="true"></i>
-            </button>
-          </div>
-          <div>
-            <button class="parent" id="dribble" name="button">
-              <span><a href="https://dribbble.com/" target="_blank" rel="noreferrer">Dribble</a></span>
-              <i class= "fab fa-dribbble fa-lg links" aria-hidden="true"></i>
-            </button>
-          </div>
-          <div>
-            <button class="parent" id="googlep" name="button">
-              <span><a href="https://plus.google.com/" target="_blank" rel="noreferrer">Google Plus</a></span>
-              <i class="fab fa-google fa-lg links" aria-hidden="true"></i>
-            </button>
-          </div>
-
-        </section>
-
-      <!-- SOCIALS -->
-      <!-- HEADER -->
-
-        <div class="container-fluid">
-
-          <!-- MAIN -->
-
-            <section class="main">
-
-              <!-- MAIN / SECTION MOVIES -->
-
-                <section class="movies" id="listM">
-
-                  <div class="container">
-
-                    <div class="row">
-
-                      <div class="col- col-sm col-md col-lg">
-
-                        <a href="#" class="launch-modal" data-modal-id="modal-video">
-                          <img class="img-fluid" src="./assets/images/aventure/lesdeuxtours-2002-aventure.jpg" alt="film">
-                        </a>
-                        <div class="titre">Les deux tours</div>
-                        <div class="date">
-                          <p>2002</p>
-                          <p>Aventure</p>
-                        </div>
-
-                      </div>
-
-                      <div class="col- col-sm col-md col-lg">
-
-                        <a href="#" class="launch-modal" data-modal-id="modal-video1">
-                          <img class="img-fluid" src="./assets/images/comedie/zoolander-2001-comedie.jpg" alt="film">
-                        </a>
-                        <div class="titre">Zoolander</div>
-                        <div class="date">
-                          <p>2001</p>
-                          <p>Comédie</p>
-                        </div>
-
-                      </div>
-
-                      <div class="col- col-sm col-md col-lg">
-
-                        <a href="#" class="launch-modal" data-modal-id="modal-video">
-                          <img class="img-fluid" src="./assets/images/thriller/shutterisland-2010-thriller.jpg" alt="film">
-                        </a>
-                        <div class="titre">Shutter Island</div>
-                        <div class="date">
-                          <p>2010</p>
-                          <p>Thriller</p>
-                        </div>
-
-                      </div>
-
-                      <div class="col- col-sm col-md col-lg">
-                        <a href="#" class="launch-modal" data-modal-id="modal-video">
-                          <img class="img-fluid" src="./assets/images/dramatique/lepatientanglais-1996-dramatique.jpg" alt="film">
-                        </a>
-                        <div class="titre">Le patient anglais</div>
-                        <div class="date">
-                          <p>1996</p>
-                          <p>Drame</p>
-                        </div>
-
-                      </div>
-
-                      <div class="col- col-sm col-md col-lg">
-                        <a href="#" class="launch-modal" data-modal-id="modal-video">
-                          <img class="img-fluid" src="./assets/images/comedie/intouchables-2011-comedie.jpg" alt="film">
-                        </a>
-                        <div class="titre">Intouchables</div>
-                        <div class="date">
-                          <p>2011</p>
-                          <p>Comédie</p>
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                  <!-- MODAL MOVIES -->
-
-                    <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <div class="modal-video">
-                              <div class="embed-responsive embed-responsive-16by9">
-                                <iframe title="Youtube Video" src="https://player.vimeo.com/video/257450749?title=0&byline=0&portrait=0"  frameborder="0" allowfullscreen></iframe>
-                              </div>
-                              <script src="https://player.vimeo.com/api/player.js"></script>
-                              <h6 class="tit">Les deux tours</h6>
-                              <p class="para">Après la mort de Boromir et la disparition de Gandalf, la `Communauté' s'est scindée en trois.<br/> Perdus dans les collines d'`Emyn Muil', Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'anneau magique.<br/> Gollum promet de conduire les `Hobbits' jusqu'à la `Porte Noire' du `Mordor'.<br/> A travers la `Terre du Milieu', Aragorn, Legolas et Gimli font route vers le `Rohan', le royaume assiégé de Theoden.</p>
-                              <h6>Réalisateur :</h6>
-                              <p class="para">Peter Jackson</p>
-                              <h6>Acteurs principaux :</h6>
-                              <p class="para">Elijah Wood, Sean Astin, Viggo Mortensen, Ian McKellen, Andy Serkis</p>
-                              <div class="date">
-                                <h6>20O2</h6>
-                                <h6>Aventure</h6>
-                              </div>
-                            </div>
-                          </div>
-
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="modal fade" id="modal-video1" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
-
-
-                  <!-- MODAL -->
-                  <!-- MODAL -->
-                    <div class="modal fade" id="modal-video2" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
-
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <div class="modal-video">
-                              <div class="embed-responsive embed-responsive-16by9">
-                                <iframe title="Youtube Video" src="https://player.vimeo.com/video/158227872?title=0&byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                              </div>
-                              <script src="https://player.vimeo.com/api/player.js"></script>
-                              <h6 class="tit">ZOOLANDER</h6>
-                              <p class="para">Après la mort de Boromir et la disparition de Gandalf, la `Communauté' s'est scindée en trois.<br/> Perdus dans les collines d'`Emyn Muil', Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'anneau magique.<br/> Gollum promet de conduire les `Hobbits' jusqu'à la `Porte Noire' du `Mordor'.<br/> A travers la `Terre du Milieu', Aragorn, Legolas et Gimli font route vers le `Rohan', le royaume assiégé de Theoden.</p>
-                              <h6>Réalisateur :</h6>
-                              <p class="para">Peter Jackson</p>
-                              <h6>Acteurs principaux :</h6>
-                              <p class="para">Elijah Wood, Sean Astin, Viggo Mortensen, Ian McKellen, Andy Serkis</p>
-                              <div class="date">
-                                <h6>20O2</h6>
-                                <h6>Aventure</h6>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  <!-- MODAL MOVIES -->
-
-                  </div>
-
-                  <!-- MODAL -->
-
-
-
-                </section>
-
-              <!-- MAIN / SECTION MOVIES -->
-              <!-- MAIN / SECTION FEATURED MOVIES -->
-
-                <section class="featured-movies" id="featuredM">
-
-                  <div class="row">
-                    <div class="col- col-sm col-md col-lg"><h5 class="fm">FEATURED MOVIES</h5></div>
-                  </div>
-
-                  <div class="row">
-
-                    <div class="container">
-
-                      <div class="btn-group" role="group">
-                        <button type="button" autofocus name="button" class="btn btn-default rounded-0 pt-0 pb-0" id="allButton">All</button>
-                        <button type="button" name="button" class="btn btn-default rounded-0 pt-0 pb-0" id="actionButton">Action</button>
-                        <button type="button" name="button" class="btn btn-default rounded-0 pt-0 pb-0" id="comedieButton">Comédie</button>
-                        <button type="button" name="button" class="btn btn-default rounded-0 pt-0 pb-0" id="scifiButton">Science Fiction</button>
-                      </div>
-                      <div class="movies1">
-                        <div class="row wrapperJson">
-
-                        </div>
-                        <div class="row wrapperJson2">
-
-                        </div>
-                        <div class="row wrapperJson3 hiddenRow">
-
-                        </div>
-                      </div>
-
-                      <div class="showbut">
-                        <div id="theshowmust" class="btn rounded-0">
-                          <span class="showmore btn btn-default">More movies</span>
-                          <span class="showless btn btn-default">
-                            <a href="#featuredMovies">Less movies</a>
-                          </span>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                </section>
-
-              <!-- MAIN / SECTION FEATURED MOVIES -->
-              <!-- MAIN / SECTION SHOP MOVIE -->
-
-                <section class="shop-movie" id="shopM">
-
-                  <h2 class="title">SHOP MOVIE</h2>
-
-                  <button id="shopBack" type="button" name="button" disabled>back</button>
-                  <button id="shopForward" type="button" name="button">forward</button>
-
-
-                  <div class="row">
-
-                    <div class="col-12 col-sm-12 col-md-7 col-lg-7">
-
-                      <div class="card-deck wrapperShop1">
-
-                      </div>
-
-                      <div class="card-deck wrapperShop2">
-
-                      </div>
-
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-5 col-lg-5">
-
-                      <div class="card mb-3 card-embed">
-                        <div class="embed-responsive embed-responsive-16by9">
-                          <iframe id="embed1" class="embed-item-responsive" title="Youtube Video" src="https://www.youtube.com/embed/QwievZ1Tx-8" allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                          <h5 id="embed2" class="card-title">Avengers: Infinity War</h5>
-                          <p id="embed3" class="card-text">Les Avengers et leurs alliés devront ètre prèts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l'univers.</p>
-                          <p id="embed4" class="card-text">2018</p>
-                          <p id="embed5" class="card-text">Action</p>
-                          <p id="embed6" class="card-text prix">16 €</p>
-                        </div>
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                </section>
-
-              <!-- MAIN / SECTION SHOP MOVIE -->
-              <!-- MAIN / SECTION CONTACT -->
-
-                <section class="contact" id="contactUs">
-
-                  <div class="container">
-
-                    <div class="row">
-
-                      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-
-                        <h2 class="title">CONTACT</h2>
-
-                        <form>
-                          <div class="form-group">
-                            <label for="inputLastName">Nom</label>
-                            <input type="text" class="form-control" id="inputLastName" placeholder="Entrer votre nom">
-                          </div>
-                          <div class="form-group">
-                            <label for="inputFirstName">Prénom</label>
-                            <input type="text" class="form-control" id="inputFirstName" placeholder="Entrer votre prénom">
-                          </div>
-                          <div class="form-group">
-                            <label for="inputEmail">Email</label>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Entrer votre email">
-                            <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre email avec quelqu'un d'autre.</small>
-                          </div>
-                          <div class="form-group">
-                            <label for="inputSujet">Sujet</label>
-                            <select class="form-control" id="inputSujet">
-                              <option disabled selected>Selectionnez votre sujet</option>
-                              <option>CONSOMMATEURS</option>
-                              <option>CONNEXION</option>
-                              <option>RELATIONS PUBLIQUES</option>
-                              <option>ANNONCEURS</option>
-                              <option>DYSFONCTIONNEMENT</option>
-                            </select>
-                          </div>
-                          <div class="form-group">
-                            <label for="inputMessage">Message</label>
-                            <textarea class="form-control" id="inputMessage" rows="3"></textarea>
-                          </div>
-                          <button type="submit" class="btn btn-default" onclick="submitContact()">Envoyer</button>
-                          <!-- <button type="button" class="btn btn-default" id="myGoogleMap">Google Map</button> -->
-                        </form>
-
-                        <!-- <div class="modal fade" id="myModalGoogleMap" role="dialog">
+        </div>
+
+      </section>
+
+      <!-- MAIN / SECTION SHOP MOVIE -->
+      <!-- MAIN / SECTION CONTACT -->
+
+      <section class="contact" id="contactUs">
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+              <h2 class="title">CONTACT</h2>
+
+              <form>
+                <div class="form-group">
+                  <label for="inputLastName">Nom</label>
+                  <input type="text" class="form-control" id="inputLastName" placeholder="Entrer votre nom">
+                </div>
+                <div class="form-group">
+                  <label for="inputFirstName">Prénom</label>
+                  <input type="text" class="form-control" id="inputFirstName" placeholder="Entrer votre prénom">
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Entrer votre email">
+                  <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre email avec
+                    quelqu'un d'autre.</small>
+                </div>
+                <div class="form-group">
+                  <label for="inputSujet">Sujet</label>
+                  <select class="form-control" id="inputSujet">
+                    <option disabled selected>Selectionnez votre sujet</option>
+                    <option>CONSOMMATEURS</option>
+                    <option>CONNEXION</option>
+                    <option>RELATIONS PUBLIQUES</option>
+                    <option>ANNONCEURS</option>
+                    <option>DYSFONCTIONNEMENT</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="inputMessage">Message</label>
+                  <textarea class="form-control" id="inputMessage" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default" onclick="submitContact()">Envoyer</button>
+                <!-- <button type="button" class="btn btn-default" id="myGoogleMap">Google Map</button> -->
+              </form>
+
+              <!-- <div class="modal fade" id="myModalGoogleMap" role="dialog">
                           <div class="modal-dialog">
 
                             <div class="modal-content">
@@ -576,242 +602,265 @@
                           </div>
                         </div> -->
 
-                      </div>
+            </div>
 
-                      <!-- <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <!-- <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 
                         <h2 class="title hidden">Contact</h2>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.2337820309544!2d4.35510167986967!3d50.845354979632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fd1d960c1%3A0xcbd18b1ea8412062!2sBeCode!5e0!3m2!1sfr!2sbe!4v1529671404078" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
                       </div> -->
 
-                    </div>
-
-                  </div>
-
-                </section>
-
-              <!-- MAIN / SECTION CONTACT -->
-
-            </section>
-
-          <!-- MAIN -->
+          </div>
 
         </div>
 
-      <!-- HEADER -->
+      </section>
 
-      <!-- FOOTER -->
+      <!-- MAIN / SECTION CONTACT -->
 
-        <section class="footer" id="footer">
+    </section>
 
-          <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+    <!-- MAIN -->
 
-            <div class="container text-center text-md-left">
+  </div>
 
-              <div class="row">
-                <div class="col-md-2">&nbsp;</div>
-                <div class="col-md-8 mr-auto">
-                  <form class="form-inline my-2 my-lg-0">
-                    <ul>
-                      <li><label for="subscribe">SUBSCRIBE TO US</label></li>
-                      <li><input class="form-control mr-sm-2" id="subscribe" type="search" placeholder="Entrer votre email" aria-label="Subscribe"><button class="btn btn-outline-default my-2 my-sm-0 " type="submit">SUBSCRIBE</button></li>
-                    </ul>
-                  </form>
-                </div>
-                <div class="col-md-2">&nbsp;</div>
-              </div>
+  <!-- HEADER -->
 
-              <div class="row">
+  <!-- FOOTER -->
 
-                <div class="col-md-2 mx-auto elementFooter">
-                  <h5 class="mt-3 mb-4">RELEASE</h5>
-                  <hr>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#!">2010</a>
-                    </li>
-                    <li>
-                      <a href="#!">2011</a>
-                    </li>
-                    <li>
-                      <a href="#!">2012</a>
-                    </li>
-                    <li>
-                      <a href="#!">2013</a>
-                    </li>
-                    <li>
-                      <a href="#!">2014</a>
-                    </li>
-                    <li>
-                      <a href="#!">2015</a>
-                    </li>
-                    <li>
-                      <a href="#!">2016</a>
-                    </li>
-                    <li>
-                      <a href="#!">2017</a>
-                    </li>
-                    <li>
-                      <a href="#!">2018</a>
-                    </li>
-                  </ul>
-                </div>
+  <section class="footer" id="footer">
 
-                <div class="col-md-2 mx-auto elementFooter">
-                  <h5 class="mt-3 mb-4">MOVIES</h5>
-                  <hr>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="#!">Action</a>
-                    </li>
-                    <li>
-                      <a href="#!">Animation</a>
-                    </li>
-                    <li>
-                      <a href="#!">Aventure</a>
-                    </li>
-                    <li>
-                      <a href="#!">Comedie</a>
-                    </li>
-                    <li>
-                      <a href="#!">Dramatique</a>
-                    </li>
-                    <li>
-                      <a href="#!">Fantastique</a>
-                    </li>
-                    <li>
-                      <a href="#!">Historique</a>
-                    </li>
-                    <li>
-                      <a href="#!">Horreur</a>
-                    </li>
-                    <li>
-                      <a href="#!">Romantique</a>
-                    </li>
-                    <li>
-                      <a href="#!">Science-Fiction</a>
-                    </li>
-                    <li>
-                      <a href="#!">Thriller</a>
-                    </li>
-                  </ul>
-                </div>
+    <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
 
-                <div class="col-md-2 mx-auto elementFooter">
-                  <h5 class="mt-3 mb-4">REVIEW MOVIES</h5>
-                  <hr>
-                  <ul class="list-unstyled">
-                    <li class="tags">
-                      <a href="#!">Action</a>
-                      <a href="#!">Animation</a>
-                      <a href="#!">Aventure</a>
-                      <a href="#!">Comedie</a>
-                      <a href="#!">Dramatique</a>
-                      <a href="#!">Fantastique</a>
-                      <a href="#!">Historique</a>
-                      <a href="#!">Horreur</a>
-                      <a href="#!">Romantique</a>
-                      <a href="#!">Science-Fiction</a>
-                      <a href="#!">Thriller</a>
-                    </li>
-                  </ul>
-                </div>
+      <div class="container text-center text-md-left">
 
-                <hr class="clearfix w-100 d-md-none">
-                <div class="col-md-3 mx-auto elementFooter">
-                  <h5 class="mt-3 mb-4">LATEST MOVIES</h5>
-                  <hr>
-                  <ul class="list-unstyled">
-                    <li class="latestmovies">
-                      <a href="#!"><img src="./assets/images/action/mazerunner3-2018-action.jpeg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Maze Runner: The Dead Cube"></a>
-                      <a href="#!"><img src="./assets/images/action/jurassicworld2-2018-action.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Jurassic World 2"></a>
-                    </li>
-                    <li class="latestmovies">
-                      <a href="#!"><img src="./assets/images/scifi/pacificrimuprising-2018-scifi.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Pacific Rim: Uprising"></a>
-                      <a href="#!"><img src="./assets/images/action/avengersinfinitywar-2018-action.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Avengers: Infinity War"></a>
-                    </li>
-                    <li class="latestmovies">
-                      <a href="#!"><img src="./assets/images/scifi/starwarsthelastjedi-2018-scifi.jpeg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Star Wars: The last jedi"></a>
-                      <a href="#!"><img src="./assets/images/action/deadpool2-2018-action.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Deadpool 2"></a>
-                    </li>
-                  </ul>
-                </div>
-                <hr class="clearfix w-100 d-md-none">
-                <div class="col-md-3 mx-auto elementFooter">
-                  <h5 class="text-uppercase mt-3 mb-4">
-                    <a class="styleAllocine" href="#">ALLEZ<span class="styleCine">CINE!</span>
-                    </a>
-                  </h5>
-                  <hr>
-                  <ul class="list-unstyled">
-                    <li class="imgAlloCine">
-                      <a href="#!"><img src="./assets/images/comedie/batmanmovie-2017-comedie.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Lego Batman, le film"></a>
-                      <a href="#!"><img src="./assets/images/thriller/hostel-2005-thriller.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Hostel"></a>
-                      <a href="#!"><img src="./assets/images/dramatique/lepatientanglais-1996-dramatique.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Le Patient anglais"></a>
-                      <a href="#!"><img src="./assets/images/thriller/shutterisland-2010-thriller.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Shutter Island"></a>
-                      <a href="#!"><img src="./assets/images/comedie/Survivestyle5-2004-comedie.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Survive Style 5+"></a>
-                      <a href="#!"><img src="./assets/images/dramatique/thefall-2006-dramatique.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="The Fall"></a>
-                      <a href="#!"><img src="./assets/images/thriller/seven-1995-thriller.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Seven"></a>
-                      <a href="#!"><img src="./assets/images/scifi/starwarsempire-1980-scifi.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Star Wars: L'Empire contre-attaque"></a>
-                      <a href="#!"><img src="./assets/images/comedie/zoolander-2001-comedie.jpg" alt="" width="80" height="80" data-toggle="tooltip" data-placement="right" title="Zoolander"></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-md-2">&nbsp;</div>
+          <div class="col-md-8 mr-auto">
+            <form class="form-inline my-2 my-lg-0">
+              <ul>
+                <li><label for="subscribe">SUBSCRIBE TO US</label></li>
+                <li><input class="form-control mr-sm-2" id="subscribe" type="search" placeholder="Entrer votre email"
+                    aria-label="Subscribe"><button class="btn btn-outline-default my-2 my-sm-0 " type="submit">SUBSCRIBE</button></li>
+              </ul>
+            </form>
+          </div>
+          <div class="col-md-2">&nbsp;</div>
+        </div>
 
+        <div class="row">
+
+          <div class="col-md-2 mx-auto elementFooter">
+            <h5 class="mt-3 mb-4">RELEASE</h5>
             <hr>
-              <p>&nbsp;</p>
-            <hr>
-
-            <h5 class="connectus">CONNECT US</h5>
-            <ul class="list-unstyled list-inline text-center">
-              <li class="list-inline-item bg-button-social">
-                <a class="btn-floating btn-fb mx-1" href="https://fr-fr.facebook.com/" target="_blank" title="Facebook" rel="noreferrer">
-                  <i class="fab fa-facebook fa-2x"> </i>
-                </a>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">2010</a>
               </li>
-              <li class="list-inline-item bg-button-social">
-                <a class="btn-floating btn-tw mx-1" href="https://twitter.com/?lang=fr" target="_blank" title="Twitter" rel="noreferrer">
-                  <i class="fab fa-twitter fa-2x"> </i>
-                </a>
+              <li>
+                <a href="#!">2011</a>
               </li>
-              <li class="list-inline-item bg-button-social">
-                <a class="btn-floating btn-gplus mx-1" href="https://plus.google.com/discover" target="_blank" title="Google +" rel="noreferrer">
-                  <i class="fab fa-google-plus fa-2x"> </i>
-                </a>
+              <li>
+                <a href="#!">2012</a>
               </li>
-              <li class="list-inline-item bg-button-social">
-                <a class="btn-floating btn-dribbble mx-1" href="https://dribbble.com/" target="_blank" title="Dribbble" rel="noreferrer">
-                  <i class="fab fa-dribbble fa-2x"> </i>
-                </a>
+              <li>
+                <a href="#!">2013</a>
+              </li>
+              <li>
+                <a href="#!">2014</a>
+              </li>
+              <li>
+                <a href="#!">2015</a>
+              </li>
+              <li>
+                <a href="#!">2016</a>
+              </li>
+              <li>
+                <a href="#!">2017</a>
+              </li>
+              <li>
+                <a href="#!">2018</a>
               </li>
             </ul>
+          </div>
 
-            <!-- FOOTER/COPYRIGHT -->
-            <div class="footer-copyright text-center py-3">© 2018 Copyright: AllezCine.com
-              <div class="createdby">
-                Created by
-                <a href="https://github.com/Cedric-Fournier" target="_blank" rel="noreferrer"> Cedric Fournier</a>
-                &
-                <a href="https://github.com/JFGEER83" target="_blank" rel="noreferrer"> Jean-François Geerinckx</a>
-              </div>
-              <!-- FOOTER/COPYRIGHT -->
-            </div>
+          <div class="col-md-2 mx-auto elementFooter">
+            <h5 class="mt-3 mb-4">MOVIES</h5>
+            <hr>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Action</a>
+              </li>
+              <li>
+                <a href="#!">Animation</a>
+              </li>
+              <li>
+                <a href="#!">Aventure</a>
+              </li>
+              <li>
+                <a href="#!">Comedie</a>
+              </li>
+              <li>
+                <a href="#!">Dramatique</a>
+              </li>
+              <li>
+                <a href="#!">Fantastique</a>
+              </li>
+              <li>
+                <a href="#!">Historique</a>
+              </li>
+              <li>
+                <a href="#!">Horreur</a>
+              </li>
+              <li>
+                <a href="#!">Romantique</a>
+              </li>
+              <li>
+                <a href="#!">Science-Fiction</a>
+              </li>
+              <li>
+                <a href="#!">Thriller</a>
+              </li>
+            </ul>
+          </div>
 
-          </footer>
+          <div class="col-md-2 mx-auto elementFooter">
+            <h5 class="mt-3 mb-4">REVIEW MOVIES</h5>
+            <hr>
+            <ul class="list-unstyled">
+              <li class="tags">
+                <a href="#!">Action</a>
+                <a href="#!">Animation</a>
+                <a href="#!">Aventure</a>
+                <a href="#!">Comedie</a>
+                <a href="#!">Dramatique</a>
+                <a href="#!">Fantastique</a>
+                <a href="#!">Historique</a>
+                <a href="#!">Horreur</a>
+                <a href="#!">Romantique</a>
+                <a href="#!">Science-Fiction</a>
+                <a href="#!">Thriller</a>
+              </li>
+            </ul>
+          </div>
 
-        </section>
+          <hr class="clearfix w-100 d-md-none">
+          <div class="col-md-3 mx-auto elementFooter">
+            <h5 class="mt-3 mb-4">LATEST MOVIES</h5>
+            <hr>
+            <ul class="list-unstyled">
+              <li class="latestmovies">
+                <a href="#!"><img src="./assets/images/action/mazerunner3-2018-action.jpeg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Maze Runner: The Dead Cube"></a>
+                <a href="#!"><img src="./assets/images/action/jurassicworld2-2018-action.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Jurassic World 2"></a>
+              </li>
+              <li class="latestmovies">
+                <a href="#!"><img src="./assets/images/scifi/pacificrimuprising-2018-scifi.jpg" alt="" width="80"
+                    height="80" data-toggle="tooltip" data-placement="right" title="Pacific Rim: Uprising"></a>
+                <a href="#!"><img src="./assets/images/action/avengersinfinitywar-2018-action.jpg" alt="" width="80"
+                    height="80" data-toggle="tooltip" data-placement="right" title="Avengers: Infinity War"></a>
+              </li>
+              <li class="latestmovies">
+                <a href="#!"><img src="./assets/images/scifi/starwarsthelastjedi-2018-scifi.jpeg" alt="" width="80"
+                    height="80" data-toggle="tooltip" data-placement="right" title="Star Wars: The last jedi"></a>
+                <a href="#!"><img src="./assets/images/action/deadpool2-2018-action.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Deadpool 2"></a>
+              </li>
+            </ul>
+          </div>
+          <hr class="clearfix w-100 d-md-none">
+          <div class="col-md-3 mx-auto elementFooter">
+            <h5 class="text-uppercase mt-3 mb-4">
+              <a class="styleAllocine" href="#">ALLEZ<span class="styleCine">CINE!</span>
+              </a>
+            </h5>
+            <hr>
+            <ul class="list-unstyled">
+              <li class="imgAlloCine">
+                <a href="#!"><img src="./assets/images/comedie/batmanmovie-2017-comedie.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Lego Batman, le film"></a>
+                <a href="#!"><img src="./assets/images/thriller/hostel-2005-thriller.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Hostel"></a>
+                <a href="#!"><img src="./assets/images/dramatique/lepatientanglais-1996-dramatique.jpg" alt="" width="80"
+                    height="80" data-toggle="tooltip" data-placement="right" title="Le Patient anglais"></a>
+                <a href="#!"><img src="./assets/images/thriller/shutterisland-2010-thriller.jpg" alt="" width="80"
+                    height="80" data-toggle="tooltip" data-placement="right" title="Shutter Island"></a>
+                <a href="#!"><img src="./assets/images/comedie/Survivestyle5-2004-comedie.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Survive Style 5+"></a>
+                <a href="#!"><img src="./assets/images/dramatique/thefall-2006-dramatique.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="The Fall"></a>
+                <a href="#!"><img src="./assets/images/thriller/seven-1995-thriller.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Seven"></a>
+                <a href="#!"><img src="./assets/images/scifi/starwarsempire-1980-scifi.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Star Wars: L'Empire contre-attaque"></a>
+                <a href="#!"><img src="./assets/images/comedie/zoolander-2001-comedie.jpg" alt="" width="80" height="80"
+                    data-toggle="tooltip" data-placement="right" title="Zoolander"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-      <!-- FOOTER -->
+      <hr>
+      <p>&nbsp;</p>
+      <hr>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="./assets/js/app.js"></script>
-    <script type="text/javascript" id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js" data-linkmsg="En savoir plus" data-message="Nous utilisons des cookies pour améliorer votre expérience. En continuant à visiter ce site, vous acceptez notre utilisation des cookies." data-position="top" data-expires="Infinity" data-accept-on-first-visit="true"></script>
+      <h5 class="connectus">CONNECT US</h5>
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item bg-button-social">
+          <a class="btn-floating btn-fb mx-1" href="https://fr-fr.facebook.com/" target="_blank" title="Facebook" rel="noreferrer">
+            <i class="fab fa-facebook fa-2x"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item bg-button-social">
+          <a class="btn-floating btn-tw mx-1" href="https://twitter.com/?lang=fr" target="_blank" title="Twitter" rel="noreferrer">
+            <i class="fab fa-twitter fa-2x"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item bg-button-social">
+          <a class="btn-floating btn-gplus mx-1" href="https://plus.google.com/discover" target="_blank" title="Google +"
+            rel="noreferrer">
+            <i class="fab fa-google-plus fa-2x"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item bg-button-social">
+          <a class="btn-floating btn-dribbble mx-1" href="https://dribbble.com/" target="_blank" title="Dribbble" rel="noreferrer">
+            <i class="fab fa-dribbble fa-2x"> </i>
+          </a>
+        </li>
+      </ul>
 
-  </body>
+      <!-- FOOTER/COPYRIGHT -->
+      <div class="footer-copyright text-center py-3">© 2018 Copyright: AllezCine.com
+        <div class="createdby">
+          Created by
+          <a href="https://github.com/Cedric-Fournier" target="_blank" rel="noreferrer"> Cedric Fournier</a>
+          &
+          <a href="https://github.com/JFGEER83" target="_blank" rel="noreferrer"> Jean-François Geerinckx</a>
+        </div>
+        <!-- FOOTER/COPYRIGHT -->
+      </div>
+
+    </footer>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="./js/app.js"></script>
+  <script type="text/javascript" id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.2.2/cookiebanner.min.js"
+    data-linkmsg="En savoir plus" data-message="Nous utilisons des cookies pour améliorer votre expérience. En continuant à visiter ce site, vous acceptez notre utilisation des cookies."
+    data-position="top" data-expires="Infinity" data-accept-on-first-visit="true"></script>
+
+</body>
+
 </html>
