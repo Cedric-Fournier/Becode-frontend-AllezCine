@@ -9,17 +9,17 @@ Nous avions deux semaines pour réaliser ce projet (18 Juin 2018) durant notre F
  Celle-ci répond à un certain nombre d'objectifs:
  
  - **Description** :
-     Un site en ONE PAGE avec un design fourni.
-     Création d’une newsletter pour faire la promo des nouveautés du site.
+     - Un site en ONE PAGE avec un design fourni.
+     - Création d’une newsletter pour faire la promo des nouveautés du site.
  
-- **Technologie** :
-    HTML
-    CSS
-    JavaScript
-    jQuery
-    Responsive design
-    Bootstrap
-    Font Awesome Icons
+- **Technologie** : 
+    - HTML
+    - CSS
+    - JavaScript
+    - jQuery
+    - Responsive design
+    - Bootstrap
+    - Font Awesome Icons
     
 - **Compétence** :
     Respecter un design fourni
