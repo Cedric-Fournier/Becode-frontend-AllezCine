@@ -1,66 +1,52 @@
-// Sercive Worker //
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
- .register('service-worker.js')
- .then(function() { console.log('Service Worker Registered'); });
+    .register('service-worker.js')
+    .then(function () { console.log('Service Worker Registered'); });
 }
-// Sercive Worker //
-// LOGIN - REGISTER //
 
 let loginRegister = () => {
 
-  $("#mySignIn").click(function(){
+  $("#mySignIn").click(function () {
     $("#myModalSignIn").modal();
   });
 
-  $("#mySignInRegister").click(function(){
-    // $("#myModalSignIn").hide() && $("#myModalSignUp").modal();
+  $("#mySignInRegister").click(function () {
     $("#myModalSignIn").modal("hide") && $("#myModalSignUp").modal();
   });
 
-  $("#mySignUp").click(function(){
+  $("#mySignUp").click(function () {
     $("#myModalSignUp").modal();
   });
 
 };
-
-// LOGIN - REGISTER //
-// AGE VERIFICATION //
 
 let ageVerif = () => {
 
   let age = prompt("Please enter your age !");
   age = parseInt(age);
 
-  while(isNaN(age) || age < 18) {
+  while (isNaN(age) || age < 18) {
 
-      if(isNaN(age)){
-          age = prompt("Please enter your age !");
-      }
+    if (isNaN(age)) {
+      age = prompt("Please enter your age !");
+    }
 
-      else if(age < 18){
-          window.location.href = "https://www.imdb.com";
-          break;
-      }
+    else if (age < 18) {
+      window.location.href = "https://www.imdb.com";
+      break;
+    }
   }
 }
 
-// AGE VERIFICATION //
-// MODAL MOVIES //
-
-$('.launch-modal').on('click', function(e){
-    e.preventDefault();
-    $( '#' + $(this).data('modal-id') ).modal();
+$('.launch-modal').on('click', function (e) {
+  e.preventDefault();
+  $('#' + $(this).data('modal-id')).modal();
 });
 
-
-// MODAL MOVIES //
-// FEATURED MOVIES //
-
 function Shuffle(o) {
-    for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-    return o;
-  };
+  for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+  return o;
+};
 
 function showMovies(data) {
   let img = data[i].url;
@@ -68,10 +54,10 @@ function showMovies(data) {
   let title = data[i].name;
   let y = data.indexOf(data[i]);
   let entry = '<div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img class="card-img-top" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center txt1 filmouf">' + title + '</div><br><div class=txt1>' + year + '</div></div></div>';
-  if(y > 11) {
+  if (y > 11) {
     $(entry).appendTo($('.wrapperJson3'));
   }
-  else if(y > 5) {
+  else if (y > 5) {
     $(entry).appendTo($('.wrapperJson2'));
   } else {
     $(entry).appendTo($('.wrapperJson'));
@@ -86,8 +72,8 @@ function clearMovies() {
 
 function moviesSelect(json) {
   clearMovies();
-  $.getJSON(json, function(data){
-    for(i in data) {
+  $.getJSON(json, function (data) {
+    for (i in data) {
       showMovies(data);
     }
   });
@@ -95,27 +81,24 @@ function moviesSelect(json) {
 
 function allMovies() {
   clearMovies();
-  $.getJSON("./assets/lib/JSON/movies.json", function(data){
+  $.getJSON("./assets/lib/JSON/movies.json", function (data) {
     let test = Shuffle(data);
-    for(i in data) {
+    for (i in data) {
       showMovies(data);
     }
   });
 }
 
-// FEATURED MOVIES //
-// SHOP MOVIE //
-
 function shop(num1, num2) {
-  $.getJSON('./assets/lib/JSON/movies.json', function(data){
-    for(i = num1; i <= num2; i++){
+  $.getJSON('./assets/lib/JSON/movies.json', function (data) {
+    for (i = num1; i <= num2; i++) {
       let img = data[i].url;
       let title = data[i].name;
       let year = data[i].date;
       let price = data[i].price;
       let id = 'movieID' + i
       let entry = '<div class="col-12 col-md-3 col-sm-6 col-lg-3"><div class="card imgclick" id=' + id + '><img class="card-img-top imgclick2" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center txt1 filmouf">' + title + '</div><br><div class="row"><div class="col txt1">' + year + '</div><div class="col txt1 prix">' + price + '</div></div></div></div></div>';
-      if(i % 2 === 0){
+      if (i % 2 === 0) {
         $(entry).appendTo($('.wrapperShop1'));
       } else {
         $(entry).appendTo($('.wrapperShop2'));
@@ -127,12 +110,12 @@ function shop(num1, num2) {
 shop(0, 7);
 let x = 0;
 let y = 7;
-$('#shopForward').click(function(){
+$('#shopForward').click(function () {
   $(".wrapperShop1").empty();
   $(".wrapperShop2").empty();
   x += 8;
   y += 8;
-  if(x<24){
+  if (x < 24) {
     shop(x, y);
     $('#shopBack').removeAttr("disabled");
   } else {
@@ -141,12 +124,12 @@ $('#shopForward').click(function(){
   }
 });
 
-$('#shopBack').click(function(){
+$('#shopBack').click(function () {
   $(".wrapperShop1").empty();
   $(".wrapperShop2").empty();
   x -= 8;
   y -= 8;
-  if(x <= 0) {
+  if (x <= 0) {
     $(this).attr("disabled", "true");
     shop(0, 7);
   } else {
@@ -155,10 +138,10 @@ $('#shopBack').click(function(){
   }
 });
 
-$(document).on("click", ".imgclick", function(){
+$(document).on("click", ".imgclick", function () {
   let source = $(this).attr("id");
   let index2 = Number(source.slice(7));
-  $.getJSON('./assets/lib/JSON/movies.json', function(data){
+  $.getJSON('./assets/lib/JSON/movies.json', function (data) {
     let trailer = data[index2].trailer;
     $('#embed1').attr('src', trailer);
     $('#embed2').html(data[index2].name);
@@ -169,9 +152,6 @@ $(document).on("click", ".imgclick", function(){
   });
 });
 
-// SHOP MOVIE //
-// CONTACT //
-
 let submitContact = () => {
 
   let lastname = document.getElementById("inputLastName").value;
@@ -180,21 +160,17 @@ let submitContact = () => {
   let sujet = document.getElementById("inputSujet").value;
   let message = document.getElementById("inputMessage").value;
 
-  alert("Nom : " + lastname + "\nPrénom : " + firstname + "\nEmail : " + email + "\nSujet : " + sujet +  "\nMessage : " + message);
+  alert("Nom : " + lastname + "\nPrénom : " + firstname + "\nEmail : " + email + "\nSujet : " + sujet + "\nMessage : " + message);
 
 }
 
 function GoogleMap() {
-  $("#myGoogleMap").click(function(){
+  $("#myGoogleMap").click(function () {
     $("#myModalGoogleMap").modal();
   });
 }
 
-
-// CONTACT //
-// BUTTON UP //
-
-let buttonUp = () =>{
+let buttonUp = () => {
 
   let button = document.createElement("A");
   let icon = document.createElement("I");
@@ -206,7 +182,7 @@ let buttonUp = () =>{
   button.setAttribute("href", "#top");
   location.insertAdjacentElement("beforeend", button);
 
-  $(window).on("scroll", function(){
+  $(window).on("scroll", function () {
     sT = $(this).scrollTop();
     if (sT > 200) {
       button.setAttribute("class", "btn btn-link fixed-bottom upstyle");
@@ -216,30 +192,27 @@ let buttonUp = () =>{
   });
 };
 
-// BUTTON UP
-// LAUNCHER //
-
-$(document).ready(function(){
+$(document).ready(function () {
   // ageVerif();
   loginRegister();
   buttonUp();
   allMovies();
-  $("#actionButton").click(function(){
+  $("#actionButton").click(function () {
     moviesSelect("./assets/lib/JSON/action.json");
   });
-  $("#comedieButton").click(function(){
+  $("#comedieButton").click(function () {
     moviesSelect("./assets/lib/JSON/comedie.json");
   });
-  $("#scifiButton").click(function(){
+  $("#scifiButton").click(function () {
     moviesSelect("./assets/lib/JSON/scifi.json");
   });
-  $("#allButton").click(function(){
+  $("#allButton").click(function () {
     allMovies();
   });
-  $("#theshowmust").click(function(){
+  $("#theshowmust").click(function () {
     let hideshow = $(".hiddenRow").css("display");
-    $(".showmore, .showless").toggle(function(){
-      if(hideshow == "none") {
+    $(".showmore, .showless").toggle(function () {
+      if (hideshow == "none") {
         $('.hiddenRow').css("display", "flex");
       } else {
         $('.hiddenRow').css("display", "none");
@@ -247,5 +220,3 @@ $(document).ready(function(){
     });
   });
 });
-
-// LAUNCHER //

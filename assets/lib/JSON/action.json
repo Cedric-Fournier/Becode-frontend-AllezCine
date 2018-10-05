@@ -1,15 +1,15 @@
 [
   {
-		"url": "./Assets/images/action/avengersinfinitywar-2018-action.jpg",
-		"name": "Avengers Infinity War",
-		"date": "2018",
-		"genre": "Action",
-		"trailer": "https://www.youtube.com/embed/QwievZ1Tx-8?rel=0",
-		"storyline": "Les Avengers et leurs alliés devront ètre prèts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l'univers.",
-		"price": "16€"
-	},
+    "url": "./assets/images/action/avengersinfinitywar-2018-action.jpg",
+    "name": "Avengers Infinity War",
+    "date": "2018",
+    "genre": "Action",
+    "trailer": "https://www.youtube.com/embed/QwievZ1Tx-8?rel=0",
+    "storyline": "Les Avengers et leurs alliés devront ètre prèts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l'univers.",
+    "price": "16€"
+  },
   {
-    "url": "./Assets/images/action/deadpool-2016-action.jpg",
+    "url": "./assets/images/action/deadpool-2016-action.jpg",
     "name": "Deadpool",
     "date": "2016",
     "genre": "Action",
@@ -18,7 +18,7 @@
     "price": "10€"
   },
   {
-    "url": "./Assets/images/action/deadpool2-2018-action.jpg",
+    "url": "./assets/images/action/deadpool2-2018-action.jpg",
     "name": "Deadpool 2",
     "date": "2018",
     "genre": "Action",
@@ -27,7 +27,7 @@
     "price": "16€"
   },
   {
-    "url": "./Assets/images/action/gijoe.jpg",
+    "url": "./assets/images/action/gijoe.jpg",
     "name": "G.I. Joe : Le Réveil du Cobra",
     "date": "2009",
     "genre": "Action",
@@ -36,7 +36,7 @@
     "price": "10€"
   },
   {
-    "url": "./Assets/images/action/jurassicworld2-2018-action.jpg",
+    "url": "./assets/images/action/jurassicworld2-2018-action.jpg",
     "name": "Jurassic World 2",
     "date": "2018",
     "genre": "Action",
@@ -45,7 +45,7 @@
     "price": "16€"
   },
   {
-    "url": "./Assets/images/action/mazerunner3-2018-action.jpeg",
+    "url": "./assets/images/action/mazerunner3-2018-action.jpeg",
     "name": "Le Labyrinthe : Le remède mortel",
     "date": "2018",
     "genre": "Action",
@@ -54,7 +54,7 @@
     "price": "16€"
   },
   {
-    "url": "./Assets/images/action/TombRaider-2018-action.jpg",
+    "url": "./assets/images/action/TombRaider-2018-action.jpg",
     "name": "Tomb Raider 2018",
     "date": "2018",
     "genre": "Action",

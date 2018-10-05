@@ -1,6 +1,6 @@
 [
-  {
-		"url": "./Assets/images/action/avengersinfinitywar-2018-action.jpg",
+	{
+		"url": "./assets/images/action/avengersinfinitywar-2018-action.jpg",
 		"name": "Avengers Infinity War",
 		"date": "2018",
 		"genre": "Action",
@@ -9,7 +9,7 @@
 		"price": "16€"
 	},
 	{
-		"url": "./Assets/images/comedie/batmanmovie-2017-comedie.jpg",
+		"url": "./assets/images/comedie/batmanmovie-2017-comedie.jpg",
 		"name": "Lego Batman, le film",
 		"date": "2017",
 		"genre": "Animation",
@@ -18,7 +18,7 @@
 		"price": "7,30€"
 	},
 	{
-		"url": "./Assets/images/action/deadpool2-2018-action.jpg",
+		"url": "./assets/images/action/deadpool2-2018-action.jpg",
 		"name": "Deadpool 2",
 		"date": "2018",
 		"genre": "Action",
@@ -27,7 +27,7 @@
 		"price": "18€"
 	},
 	{
-		"url": "./Assets/images/thriller/theexorcismofmollyhartley-2015-thriller.jpg",
+		"url": "./assets/images/thriller/theexorcismofmollyhartley-2015-thriller.jpg",
 		"name": "L'exorcisme de Molly Hartley",
 		"date": "2015",
 		"genre": "Horreur",
@@ -36,7 +36,7 @@
 		"price": "7,30€"
 	},
 	{
-		"url": "./Assets/images/thriller/hostel-2005-thriller.jpg",
+		"url": "./assets/images/thriller/hostel-2005-thriller.jpg",
 		"name": "Hostel",
 		"date": "2005",
 		"genre": "Horreur",
@@ -45,7 +45,7 @@
 		"price": "5€"
 	},
 	{
-		"url": "./Assets/images/scifi/inception-2010-scifi.jpg",
+		"url": "./assets/images/scifi/inception-2010-scifi.jpg",
 		"name": "Inception",
 		"date": "2010",
 		"genre": "Science-Fiction",
@@ -54,7 +54,7 @@
 		"price": "8€"
 	},
 	{
-		"url": "./Assets/images/comedie/intouchables-2011-comedie.jpg",
+		"url": "./assets/images/comedie/intouchables-2011-comedie.jpg",
 		"name": "Intouchables",
 		"date": "2011",
 		"genre": "Comédie",
@@ -63,7 +63,7 @@
 		"price": "8€"
 	},
 	{
-		"url": "./Assets/images/comedie/jumanji-2018-comedie.jpg",
+		"url": "./assets/images/comedie/jumanji-2018-comedie.jpg",
 		"name": "Jumanji : Bienvenue dans la jungle",
 		"date": "2018",
 		"genre": "Comédie",
@@ -72,7 +72,7 @@
 		"price": "17€"
 	},
 	{
-		"url": "./Assets/images/action/jurassicworld2-2018-action.jpg",
+		"url": "./assets/images/action/jurassicworld2-2018-action.jpg",
 		"name": "Jurassic World: Fallen Kingdom",
 		"date": "2018",
 		"genre": "Aventure",
@@ -81,7 +81,7 @@
 		"price": "17€"
 	},
 	{
-		"url": "./Assets/images/dramatique/lepatientanglais-1996-dramatique.jpg",
+		"url": "./assets/images/dramatique/lepatientanglais-1996-dramatique.jpg",
 		"name": "Le patient anglais",
 		"date": "1996",
 		"genre": "Drame",
@@ -90,7 +90,7 @@
 		"price": "5€"
 	},
 	{
-		"url": "./Assets/images/aventure/lesdeuxtours-2002-aventure.jpg",
+		"url": "./assets/images/aventure/lesdeuxtours-2002-aventure.jpg",
 		"name": "Le seigneur des anneaux : les deux tours",
 		"date": "2002",
 		"genre": "Aventure",
@@ -99,7 +99,7 @@
 		"price": "5€"
 	},
 	{
-		"url": "./Assets/images/aventure/lesdeuxtours-2002-aventure.jpg",
+		"url": "./assets/images/aventure/lesdeuxtours-2002-aventure.jpg",
 		"name": "Le seigneur des anneaux : les deux tours",
 		"date": "2002",
 		"genre": "Aventure",
@@ -108,7 +108,7 @@
 		"price": "5€"
 	},
 	{
-		"url": "./Assets/images/action/mazerunner3-2018-action.jpeg",
+		"url": "./assets/images/action/mazerunner3-2018-action.jpeg",
 		"name": "Le Labyrinthe 3: le remède mortel",
 		"date": "2018",
 		"genre": "Action",
@@ -117,7 +117,7 @@
 		"price": "15€"
 	},
 	{
-		"url": "./Assets/images/scifi/pacificrimuprising-2018-scifi.jpg",
+		"url": "./assets/images/scifi/pacificrimuprising-2018-scifi.jpg",
 		"name": "Pacific Rim Uprising",
 		"date": "2018",
 		"genre": "Science-Fiction",
@@ -126,7 +126,7 @@
 		"price": "16€"
 	},
 	{
-		"url": "./Assets/images/thriller/seven-1995-thriller.jpg",
+		"url": "./assets/images/thriller/seven-1995-thriller.jpg",
 		"name": "Seven",
 		"date": "1996",
 		"genre": "Thriller",
@@ -135,7 +135,7 @@
 		"price": "16€"
 	},
 	{
-		"url": "./Assets/images/thriller/shutterisland-2010-thriller.jpg",
+		"url": "./assets/images/thriller/shutterisland-2010-thriller.jpg",
 		"name": "Shutter Island",
 		"date": "2010",
 		"genre": "Thriller",
@@ -144,7 +144,7 @@
 		"price": "8€"
 	},
 	{
-		"url": "./Assets/images/scifi/starwarsempire-1980-scifi.jpg",
+		"url": "./assets/images/scifi/starwarsempire-1980-scifi.jpg",
 		"name": "Star Wars, épisode V : L'Empire contre-attaque",
 		"date": "1980",
 		"genre": "Science-Fiction",
@@ -153,7 +153,7 @@
 		"price": "5€"
 	},
 	{
-		"url": "./Assets/images/scifi/starwarsthelastjedi-2018-scifi.jpeg",
+		"url": "./assets/images/scifi/starwarsthelastjedi-2018-scifi.jpeg",
 		"name": "Star Wars 8 : Les Derniers Jedi",
 		"date": "2017",
 		"genre": "Science-Fiction",
@@ -162,7 +162,7 @@
 		"price": "18€"
 	},
 	{
-		"url": "./Assets/images/comedie/Survivestyle5-2004-comedie.jpg",
+		"url": "./assets/images/comedie/Survivestyle5-2004-comedie.jpg",
 		"name": "Survive Style 5+",
 		"date": "2004",
 		"genre": "Comédie",
@@ -171,7 +171,7 @@
 		"price": "8€"
 	},
 	{
-		"url": "./Assets/images/comedie/swissarmyman-2016-comedie.jpg",
+		"url": "./assets/images/comedie/swissarmyman-2016-comedie.jpg",
 		"name": "Swiss Army Man",
 		"date": "2018",
 		"genre": "Comédie",
@@ -180,7 +180,7 @@
 		"price": "17€"
 	},
 	{
-		"url": "./Assets/images/dramatique/thefall-2006-dramatique.jpg",
+		"url": "./assets/images/dramatique/thefall-2006-dramatique.jpg",
 		"name": "The fall",
 		"date": "2006",
 		"genre": "Dramatique",
@@ -189,7 +189,7 @@
 		"price": "8€"
 	},
 	{
-		"url": "./Assets/images/fantastique/TheGreatestShowman-2018-fantastique.jpg",
+		"url": "./assets/images/fantastique/TheGreatestShowman-2018-fantastique.jpg",
 		"name": "The Greatest Showman",
 		"date": "2018",
 		"genre": "Fantastique",
@@ -198,7 +198,7 @@
 		"price": "16€"
 	},
 	{
-		"url": "./Assets/images/action/TombRaider-2018-action.jpg",
+		"url": "./assets/images/action/TombRaider-2018-action.jpg",
 		"name": "Tomb Raider",
 		"date": "2018",
 		"genre": "Action",
@@ -207,7 +207,7 @@
 		"price": "16€"
 	},
 	{
-		"url": "./Assets/images/comedie/WhatWeDoInTheShadows-2014-comedie.jpg",
+		"url": "./assets/images/comedie/WhatWeDoInTheShadows-2014-comedie.jpg",
 		"name": "What We Do In The Shadows",
 		"date": "2014",
 		"genre": "Comédie",
@@ -216,7 +216,7 @@
 		"price": "16€"
 	},
 	{
-		"url": "./Assets/images/comedie/zoolander-2001-comedie.jpg",
+		"url": "./assets/images/comedie/zoolander-2001-comedie.jpg",
 		"name": "Zoolander",
 		"date": "2001",
 		"genre": "Comédie",
