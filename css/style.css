@@ -1,12 +1,6 @@
-/* GENERAL */
-
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
-
-/* section {
-  margin: 10px 0;
-} */
 
 .container-fluid .shop-movie{
   padding: 2.2em;
@@ -22,9 +16,6 @@ body {
   visibility: hidden;
 }
 
-/* GENERAL */
-/* HEADER */
-/* MENU */
 .menu .fa-align-justify {
   color: #fff !important;
 }
@@ -38,9 +29,6 @@ body {
 
 .menu .nav-item a {
   color: #fff !important;
-}
-
-.menu .nav-link .active {
 }
 
 .menu .bg-menu {
@@ -91,9 +79,6 @@ body {
   font-weight: bold;
 }
 
-/* MENU */
-/* SLIDE */
-
 .slide {
   background: #000;
 }
@@ -140,9 +125,6 @@ body {
 .carousel-indicators li {
   margin-bottom: 3.125em;
 }
-
-/* SLIDE */
-/* LOGIN-REGISTER */
 
 .login-register {
   background: #FF002C;
@@ -224,11 +206,6 @@ body {
   overflow: auto;
 }
 
-/* LOGIN-REGISTER */
-/* HEADER */
-
-/* SOCIALS */
-
 .reseaux-sociaux {
   position: fixed;
   top: 250px;
@@ -284,9 +261,6 @@ body {
   display: inherit;
   width: 100px;
 }
-
-/* SOCIALS */
-/* ??? */
 .row {
     align-item: center;
 }
@@ -300,9 +274,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-/* ??? */
-/* MODAL MOVIES */
 
 .movies .modal-backdrop.in {
     filter: alpha(opacity=7);
@@ -342,19 +313,16 @@ body {
 .movies .modal-video{
     background-color: gainsboro;
     padding: 4px 4px 4px 4px;
-
 }
 
 .tit{
     text-align: left;
-
 }
 
 .para{
     font-size: x-small;
 }
-/* MODAL MOVIES */
-/* FEATURED MOVIES */
+
 .showbut {
   text-align: center;
 }
@@ -393,9 +361,6 @@ body {
 .featured-movies .card-img-top {
   height: 14em;
 }
-
-/* FEATURED MOVIES */
-/* SHOP MOVIE */
 
 .shop-movie .wrapperShop1,
 .shop-movie .wrapperShop2{
@@ -442,13 +407,6 @@ body {
   color: #000 !important;
 }
 
-/* SHOP MOVIE */
-/* CONTACT */
-
-.contact {
-
-}
-
 .contact .btn-default {
   color: #fff;;
   background: #ff2b43;
@@ -465,17 +423,6 @@ body {
 iframe {
   margin-top: 15px;
 }
-
-/* CONTACT */
-/* FOOTER */
-
-.footer {
-
-}
-
-/* .footer form {
-  text-align: center;
-} */
 
 .footer label {
   color: #ff2b43;
@@ -541,10 +488,6 @@ iframe {
 
 .footer .styleCine {
   color: #fff;
-}
-
-.footer .imgAlloCine img {
-
 }
 
 .footer .fa-twitter,
@@ -635,8 +578,6 @@ iframe {
  left: auto;
 }
 
-/* FOOTER */
-/*** Feat Movies ***/
 .fm{
     padding-left: 5px;
     padding-top: 5px;
@@ -662,5 +603,3 @@ iframe {
 .cachee {
     display:none;
 }
-
-/*** Feat Movies ***/
