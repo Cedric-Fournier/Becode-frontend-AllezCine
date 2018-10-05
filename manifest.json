@@ -4,12 +4,12 @@
   "icons":
   [
     {
-      "src": "./Assets/images/allezcine-192.png",
+      "src": "./assets/images/allezcine-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./Assets/images/allezcine-512.png",
+      "src": "./assets/images/allezcine-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
