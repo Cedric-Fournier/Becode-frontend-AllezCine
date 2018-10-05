@@ -1,4 +1,4 @@
-# Front-end project
+# Front-end Allez Ciné project
 
 - **Deadline** : vendredi 29/06 à 17:00
 - **Contexte** : Exercice de groupe réalisé durant notre formation en developpeur web au sein de [BeCode](https://github.com/becodeorg/)
