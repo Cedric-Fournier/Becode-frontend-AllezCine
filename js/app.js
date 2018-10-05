@@ -95,7 +95,7 @@ function moviesSelect(json) {
 
 function allMovies() {
   clearMovies();
-  $.getJSON("./Assets/bibliotheque/JSON/movies.json", function(data){
+  $.getJSON("./assets/lib/JSON/movies.json", function(data){
     let test = Shuffle(data);
     for(i in data) {
       showMovies(data);
@@ -107,7 +107,7 @@ function allMovies() {
 // SHOP MOVIE //
 
 function shop(num1, num2) {
-  $.getJSON('./Assets/bibliotheque/JSON/movies.json', function(data){
+  $.getJSON('./assets/lib/JSON/movies.json', function(data){
     for(i = num1; i <= num2; i++){
       let img = data[i].url;
       let title = data[i].name;
@@ -158,7 +158,7 @@ $('#shopBack').click(function(){
 $(document).on("click", ".imgclick", function(){
   let source = $(this).attr("id");
   let index2 = Number(source.slice(7));
-  $.getJSON('./Assets/bibliotheque/JSON/movies.json', function(data){
+  $.getJSON('./assets/lib/JSON/movies.json', function(data){
     let trailer = data[index2].trailer;
     $('#embed1').attr('src', trailer);
     $('#embed2').html(data[index2].name);
@@ -225,13 +225,13 @@ $(document).ready(function(){
   buttonUp();
   allMovies();
   $("#actionButton").click(function(){
-    moviesSelect("./Assets/bibliotheque/JSON/action.json");
+    moviesSelect("./assets/lib/JSON/action.json");
   });
   $("#comedieButton").click(function(){
-    moviesSelect("./Assets/bibliotheque/JSON/comedie.json");
+    moviesSelect("./assets/lib/JSON/comedie.json");
   });
   $("#scifiButton").click(function(){
-    moviesSelect("./Assets/bibliotheque/JSON/scifi.json");
+    moviesSelect("./assets/lib/JSON/scifi.json");
   });
   $("#allButton").click(function(){
     allMovies();
