@@ -15,6 +15,7 @@ Nous avions deux semaines pour réaliser ce projet (18 Juin 2018) durant notre F
 - **Technologie** : 
     - HTML
     - CSS
+    - JSON
     - JavaScript
     - jQuery
     - Responsive design
